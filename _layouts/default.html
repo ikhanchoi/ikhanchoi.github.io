@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<!-- lang="{{ page.lang | default: site.lang | default: "en" }}" -->
+
+
+
+<head>
+	<meta charset='utf-8'>
+	<title>
+		{% if page.title %}
+			{{ page.title }}
+		{% else %} 
+			{{ site.name }} &mdash; {{ site.description }}
+		{% endif %}
+	</title>
+
+	{% if site.highlighter %}
+		<link rel='stylesheet' href='{{ site.url }}/assets/css/syntax.css' type='text/css'>
+	{% endif %}
+	
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+	<!-- Hyperlink font -->
+	<style type="text/css">
+		a:link { color: darkturquoise; text-decoration: none;}
+		a:visited { color: darkturquoise; text-decoration: none;}
+		a:hover { color: turquoise; text-decoration: none;}
+	</style>
+
+	<!-- Math setting -->
+	{% if page.mathjax %}
+		{% include mathjax.html %}
+	{% else %}
+		{% include katex.html %}
+	{% endif %}
+
+</head>
+
+
+
+
+<body>
+	{% include header.html %}
+	{{ content }}
+	{% include footer.html %}
+</body>
+</html>

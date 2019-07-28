@@ -1,1 +1,28 @@
-theme: jekyll-theme-cayman
+title: "Ikhan Choi"
+description: ""
+
+url: '' 
+baseurl: ''
+
+markdown: kramdown
+markdown_ext: "md"
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 7
+paginate_path: "/page_posts/page:num"
+
+#disqus-id: your-disqus-id
+
+source: .
+destination: ./_site
+gems: ['jekyll-paginate']
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/
+
+excerpt_separator: <!--more-->
