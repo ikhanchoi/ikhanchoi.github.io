@@ -1,0 +1,18 @@
+@font-face {
+	font-family: VernadaWeb;
+	src: url(vernada.woff) format('woff');
+	font-weight: normal;
+}
+html {
+}
+body {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	font-family: 'Martel', serif;
+}
+
+a:link { color: darkred; text-decoration: none;}
+a:visited { color: darkred; text-decoration: none;}
+a:hover { color: darkred; text-decoration: none;}

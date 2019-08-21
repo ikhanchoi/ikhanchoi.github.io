@@ -1,51 +1,40 @@
 <!DOCTYPE html>
 <html>
 
-<!-- lang="{{ page.lang | default: site.lang | default: "en" }}" -->
 
+	<head>
+		<title>
+			{% if page.title %}
+				{{ page.title }}
+			{% else %} 
+				{{ site.name }} &mdash; {{ site.description }}
+			{% endif %}
+		</title>
 
-
-<head>
-	<title>
-		{% if page.title %}
-			{{ page.title }}
-		{% else %} 
-			{{ site.name }} &mdash; {{ site.description }}
-		{% endif %}
-	</title>
-
-	{% if site.highlighter %}
-		<link rel='stylesheet' type='text/css' href='{{ site.url }}/assets/css/syntax.css'>
-	{% endif %}
 	
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 
-	<!--  -->
-	<style type="text/css">
-		body { font:sans-serif; }
+		<!-- link -->
+		<link rel='stylesheet' href='../_includes/style.css'>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/	css?family=Martel&display=swap'>
 
-		a:link { color: black; text-decoration: none;}
-		a:visited { color: black; text-decoration: none;}
-		a:hover { color: black; text-decoration: none;}
-	</style>
+		<!-- Math setting -->
+		{% if page.mathjax %}
+			{% include mathjax.html %}
+		{% else %}
+			{% include katex.html %}
+		{% endif %}
 
-	<!-- Math setting -->
-	{% if page.mathjax %}
-		{% include mathjax.html %}
-	{% else %}
-		{% include katex.html %}
-	{% endif %}
-
-</head>
+	</head>
 
 
 
 
-<body>
-	{% include header.html %}
-	{{ content }}
-	{% include footer.html %}
-</body>
+	<body>
+		{% include header.html %}
+		{{ content }}
+		{% include footer.html %}
+	</body>
 </html>
