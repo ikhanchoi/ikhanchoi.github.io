@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-
 	<head>
 		<title>
 			{% if page.title %}
 				{{ page.title }}
 			{% else %} 
-				{{ site.name }} &mdash; {{ site.description }}
+				{{ site.title }}
 			{% endif %}
 		</title>
 
@@ -17,10 +15,10 @@
 
 
 		<!-- link -->
-		<link rel='stylesheet' href='../_includes/style.css'>
+		<link rel='stylesheet' href='{{site.url}}/assets/css/style.css'>
 		<link rel='stylesheet' href='https://fonts.googleapis.com/	css?family=Martel&display=swap'>
 
-		<!-- Math setting -->
+		<!-- math setting -->
 		{% if page.mathjax %}
 			{% include mathjax.html %}
 		{% else %}
@@ -33,8 +31,33 @@
 
 
 	<body>
-		{% include header.html %}
+
+		<header>
+			<h1 style='text-align: center; padding-top: 30px;'>Ikhan Choi</h1>
+		</header>
+
+		<nav style='text-align: center;'>
+			<a href='/'>Home</a>
+			<span>&emsp;&emsp;&emsp;</span>
+			<a href='/page_archive'>Archive</a>
+			<span>&emsp;&emsp;&emsp;</span>
+			<a href='/page_posts'>Posts</a>
+			<span>&emsp;&emsp;&emsp;</span>
+			<a href='/page_softwares'>Softwares</a>
+		</nav>
+
+		<hr>
+
 		{{ content }}
-		{% include footer.html %}
+
+		<hr>
+
+		<footer>
+			<p><small><i>
+				Powered by <a href="https://jekyllrb.com/">Jekyll</a>
+			</i></small></p>
+		</footer>
+
 	</body>
+
 </html>

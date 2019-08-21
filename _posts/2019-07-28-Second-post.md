@@ -8,5 +8,5 @@ This post comes from the future.
 Let $f$ be a function.
 Then,
 \[F(x)=\int_Xf(x)\,dx.\]
-<!--more-->
+<!-- more -->
 Fantastic.

@@ -1,0 +1,13 @@
+
+body {
+	padding: 0;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	font-family: 'Martel', serif;
+}
+
+a:link { color: darkred; text-decoration: none;}
+a:visited { color: darkred; text-decoration: none;}
+a:hover { color: darkred; text-decoration: none;}

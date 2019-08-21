@@ -4,20 +4,11 @@ title:  "First post"
 date:   2019-07-28 17:10:00 +0900
 ---
 
-Monumental first post!
-
-
-### Section
-
-Begin itemize:
-
-- item
-- item
-
-Source code are not highlighted.
+This is the monumental first post!
 Let $a$ be a compex number and $\gamma$ is a closed curve enclosing $a$.
-
 Then, the Cauchy integral formula is described by:
 \[f(a)=\frac1{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\,dz.\]
-<!--more-->
+
+<!-- more -->
+
 Show that $S^n$ possesses a nonvanishing vector field if and only if $n$ is odd.

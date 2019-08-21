@@ -1,3 +1,25 @@
 ---
-layout: page_posts
+layout: default
 ---
+
+<p>
+	Reviews of interesting problems or papers.
+</p>
+
+{% for post in paginator.posts %}
+	<h3><a href='{{post.url}}' title='{{post.title}}'>{{post.title}}</a></h3>
+	<p>{{ post.excerpt | truncatewords:40 }}</p>
+{% endfor %}
+
+
+
+{% if paginator.previous_page %}
+	<a href='{{site.url}}{{paginator.previous_page_path}}'>Prev</a>
+{% endif %}
+<p style='text-align: center; padding-top: 10px;'>
+	&ndash;&ensp;{{paginator.page}} of {{paginator.total_pages}}&ensp;&ndash;
+</p>
+{% if paginator.next_page %}
+	<a href='{{site.url}}{{paginator.next_page_path}}'>Next</a>
+{% endif %}
+
