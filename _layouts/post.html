@@ -3,23 +3,17 @@ layout: default
 ---
 <article>
 	<header>
-		<h1>{{ page.title }}</h1>
-		<p>
-			<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-			{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-			{{ page.date | date: date_format }}
-			</time>
+		<h1 style='font-size: x-large;'>
+			{{page.title}}
+		</h1>
+		<p style='font-size: small; font-weight: bold;'>
+			Posted: {{page.date|date:"%b %-d, %Y"}}<br>
+			{%if page.update%}
+				Last Updated: {{page.update|date:"%b %-d, %Y"}}
+			{%endif%}
 		</p>
 	</header>
 	
-	
 	{{ content }}
-	
-		
-	{% if site.disqus-id %}
-		{% include comments.html %}
-	{% endif %}
-
-	<a href="{{ page.url | relative_url }}" hidden></a>
 
 </article>

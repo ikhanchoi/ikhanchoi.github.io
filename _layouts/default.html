@@ -9,13 +9,15 @@
 			{% endif %}
 		</title>
 
-	
+		
+		<!-- meta -->
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-
-		<!-- link -->
+		<!-- stylesheet -->
 		<link rel='stylesheet' href='{{site.url}}/assets/css/style.css'>
+
+		<!-- fonts -->
 		<link rel='stylesheet' href='https://fonts.googleapis.com/	css?family=Martel&display=swap'>
 
 		<!-- math setting -->
@@ -33,22 +35,24 @@
 	<body>
 
 		<header>
-			<h1 style='text-align: center; padding-top: 30px;'>Ikhan Choi</h1>
+			<h1 style='text-align: center;'>Ikhan Choi</h1>
 		</header>
 
 		<nav style='text-align: center;'>
 			<a href='/'>Home</a>
-			<span>&emsp;&emsp;&emsp;</span>
-			<a href='/page_archive'>Archive</a>
-			<span>&emsp;&emsp;&emsp;</span>
-			<a href='/page_posts'>Posts</a>
-			<span>&emsp;&emsp;&emsp;</span>
-			<a href='/page_softwares'>Softwares</a>
+			<span>&emsp;&ensp;&emsp;</span>
+			<a href='/pages/archive.html'>Archive</a>
+			<span>&emsp;&ensp;&emsp;</span>
+			<a href='/pages/posts'>Posts</a>
+			<span>&emsp;&ensp;&emsp;</span>
+			<a href='/pages/softwares.html'>Softwares</a>
 		</nav>
 
 		<hr>
 
-		{{ content }}
+		<section>
+			{{ content }}
+		</section>
 
 		<hr>
 

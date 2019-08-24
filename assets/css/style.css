@@ -1,13 +1,30 @@
 
 body {
-	padding: 0;
 	max-width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	vertical-align: middle;
+	margin: 0 auto;
+	padding-top: 30px;
 	font-family: 'Martel', serif;
+}
+
+nav {
+	padding: 0 5px;
+}
+
+section {
+	padding: 10px 5px;
+}
+
+
+
+
+ul {
+	list-style: none;
+	padding-left: 10px;
+}
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 a:link { color: darkred; text-decoration: none;}
 a:visited { color: darkred; text-decoration: none;}
-a:hover { color: darkred; text-decoration: none;}

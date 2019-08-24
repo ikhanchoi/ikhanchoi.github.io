@@ -2,6 +2,7 @@ title: 'Ikhan Choi'
 
 url: '' 
 baseurl: ''
+archiveurl: '~/Git/mathnotes'
 
 markdown: kramdown
 markdown_ext: 'md'
@@ -12,7 +13,7 @@ kramdown:
   syntax_highlighter: rouge
 
 paginate: 5
-paginate_path: '/page_posts/page:num'
+paginate_path: '/pages/posts/page:num'
 
 #disqus-id: your-disqus-id
 
