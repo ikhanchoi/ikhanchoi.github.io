@@ -1,9 +1,10 @@
 
+
 body {
 	max-width: 600px;
 	margin: 0 auto;
 	padding-top: 30px;
-	font-family: 'Martel', serif;
+	font-family: 'Lora', serif;
 }
 
 nav {
@@ -11,20 +12,13 @@ nav {
 }
 
 section {
-	padding: 10px 5px;
+	padding: 5px 5px;
 }
 
 
 
-
-ul {
-	list-style: none;
-	padding-left: 10px;
+.katex {
+	font-size: 1em !important;
 }
-li {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
 a:link { color: darkred; text-decoration: none;}
 a:visited { color: darkred; text-decoration: none;}
