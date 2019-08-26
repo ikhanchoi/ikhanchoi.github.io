@@ -11,7 +11,7 @@ With four problems that are effective when the double counting is applied, we wi
 
 Double counting is basically to commute sums: $\sum_i\sum_j=\sum_j\sum_i$.
 However, this explanation would be useless in applications, so let us see examples.
-The most basics example is the degree sum formula: for a graph $(V,E)$, we have
+The most basic example is the degree sum formula: for a graph $(V,E)$, we have
 \[\sum_{v\in V}\deg(v)=2|E|.\]
 This theorem can be proved as follows.
 Consider a bipartite graph $B$ with the set of vertices $V\cup E$ and edges are given by all pairs $(v,e)$ such that $v$ is one of two vertices of $e$.
@@ -26,15 +26,15 @@ Since they must be equal, we get the formula!
 
 Generalizing this, we suggest an algorithm to solve a combinatorics problem with double counting:
 - Construct a suitable bipartite graph.
-- Find the conditions about degrees at the vertices on each side.
-- Establish the double counting equation.
+- Find the conditions about degrees at vertices on each side.
+- Establish the double counting equations.
 - Combine them to obtain desired results.
 
-Before we get started, let us give some definitions.
+Before we get started, let us give a definition.
 
 <b>Definition.</b>
 Let $(V,E)$ be a graph.
-We define the <i>degree</i> of a pair $(v,v')$ of distinct vertices as the number of vertices that are connected to both $v$ and $v'$, and denot it by $\deg(v,v')$.
+We define the <i>degree</i> of a pair $(v,v')$ of distinct vertices as the number of vertices that are connected to both $v$ and $v'$, and denote it by $\deg(v,v')$.
 
 <b>Problem 1.</b>
 Suppose we have 21 points on a plane.
@@ -74,8 +74,9 @@ Build the double counting equations
 and
 \[\sum_s{\deg(s)\choose2}=\sum_{m\ne m'}\deg(m,m').\]
 
-The first equation implies $\sum_s\deg(s)=45\cdot11$, and the second equation implies
-\[\sum_s\deg(s)^2=\sum_s\deg(s)+2\sum_{m\ne m'}\deg(m,m')=45\cdot11+2\cdot9\cdot{11\choose2}.\]
+The first equation implies $\sum_s\deg(s)=45\cdot11=495$, and the second equation implies
+\[\sum_s\deg(s)^2=\sum_s\deg(s)+2\sum_{m\ne m'}\deg(m,m')\]
+\[=495+2\cdot9\cdot{11\choose2}=1485.\]
 Since what we want to find is $|S|=\sum_s1$, we can apply the Cauchy-Schwarz inequality to get
 \[\sum_s1\ge\frac{\left(\sum_s\deg(s)\right)^2}{\sum_s\deg(s)^2}=165.\]
 
