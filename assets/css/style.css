@@ -11,8 +11,8 @@ nav {
 	padding: 0 5px;
 }
 
-section {
-	padding: 5px 5px;
+section, footer {
+	padding: 5px 12px;
 }
 
 
