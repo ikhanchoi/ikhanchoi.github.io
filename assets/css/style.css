@@ -18,7 +18,7 @@ section, footer {
 
 
 .katex {
-	font-size: 1em !important;
+	font-size: 1.05em !important;
 }
 a:link { color: darkred; text-decoration: none;}
 a:visited { color: darkred; text-decoration: none;}
