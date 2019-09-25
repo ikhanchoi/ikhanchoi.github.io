@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Wrong proof on totally bounded uniform space"
+title:  "Wrong proof on totally bounded uniform spaces"
 date:   2019-09-22 18:20:00 +0900
 ---
 
 Totally boundedness is a way of descibing compactness in metric spaces.
-Precisely, a metric space is compact if and only if it is totally bounded and complete.
-It can be generalized to uniform spaces in general, which does not allow to use of sequences.
+It can be generalized to uniform spaces in general, which do not allow the use of sequences.
 Related to this, I found a proof mistake on the celebrated book of Stephen Willard, one of masters in general topology.
 The purpose of this post is to fix the proof and practice the usage of subnets by generalizing the theorem.
 
@@ -116,7 +115,7 @@ Then, the problem is: how can we deal with the diagonal arguement in non-countab
 Concretely, which strategy for existence proof can replace the diagonal subsequence?
 The answer is the axiom of choice.
 
-As we have seen in the Section 1, the main obstacle is that non-directedness of $\Gamma$.
+As we have seen in the Section 2, the main obstacle is that non-directedness of $\Gamma$.
 The reason why $\Gamma$ is not directed was there can be several "possible" limits of subnets of a given net.
 Therefore, we are required to "choose" one of them and focus on it in order to make a directed set.
 Exactly in this step, Zorn's lemma will be used.
