@@ -40,7 +40,7 @@ There is $\beta_0$ such that $\beta\succ\beta_0$ implies $(x_{h(\beta)},x_0)\in 
 There is $\alpha_0$ such that $\alpha,\alpha'\succ\alpha_0$ implies $(x_\alpha,x_{\alpha'})\in E$ by the Cauchyness of $x$.
 We may assume $\alpha_0\succ h(\beta_0)$.
 For this $\alpha_0$, we have
-\[\alpha\succ\alpha_0\quad\Rightarrow\quad(x_\alpha,x_0)\in E^2\]
+\\[\alpha\succ\alpha_0\quad\Rightarrow\quad(x_\alpha,x_0)\in E^2\\]
 because the cofinality of $h$ allows us to find $\beta$ with $h(\beta)\succ\alpha$ so that $(x_\alpha,x_{h(\beta)})\in E$ and $(x_{h(\beta)},x_0)\in E$.
 So we are done.
 <span style="float: right">$\Box$&ensp;</span>
@@ -65,8 +65,10 @@ Let $\Gamma=\\{(\lambda,D)\mid D\in\mathcal{D}\text{ and }x_\lambda\in U_D\\}$, 
 For each $(\lambda,D)\in\Gamma$ define $x_{(\lambda,D)}=x_\lambda$.
 Then, $(x_{(\lambda,D)})$ is a subset of $(x_\lambda)$ and, given $D_0\in\mathcal{D}$, pick $\lambda_0\in\Lambda$ so that $(\lambda_0,D_0)\in\Gamma$.
 Then,
-\[(\lambda,D),(\lambda',D')\ge(\lambda_0,D_0)\quad\Rightarrow\]
-\[(x_\lambda,x_{\lambda'})\in U_D\times U_{D'}\subset U_{D_0}\times U_{D_0}\subset D_0,\]
+\\[\begin{aligned}
+&(\lambda,D),(\lambda',D')\ge(\lambda_0,D_0)\quad\Rightarrow \\\
+&\qquad(x_\lambda,x_{\lambda'})\in U_D\times U_{D'}\subset U_{D_0}\times U_{D_0}\subset D_0,
+\end{aligned}\\]
 so that $(x_{(\lambda,D)})$ is a Cauchy subnet of $(x_\lambda)$.
 
 On the other hand, ($\cdots$)
@@ -109,7 +111,7 @@ Then it is clearly a subsequence of $x_k$ and is Cauchy.
 
 
 
-<center><b>IV. My proof using Zorn's lemma</b></center>
+<center><b>IV. Our proof using Zorn's lemma</b></center>
 
 Then, the problem is: how can we deal with the diagonal arguement in non-countable situation?
 Concretely, which strategy for existence proof can replace the diagonal subsequence?
@@ -131,14 +133,12 @@ We are going to show $x$ has a Cauchy subnet.
 
 <b>Step 1. Applying Zorn's lemma.</b>
 Define a subset $\mathfrak{A}'\subset\mathfrak{A}\times\mathcal{T}\times\mathcal{U}$ by
-\[(\alpha,U,E)\in\mathfrak{A}'\Leftrightarrow\]
-\[x_\alpha\in U,\ U^2\subset E,\text{ and }x^{-1}(U)\text{ is cofinal in }\mathfrak{A}.\]
+\\[(\alpha,U,E)\in\mathfrak{A}'\quad\Leftrightarrow\quad x_\alpha\in U,\ U^2\subset E,\text{ and }x^{-1}(U)\text{ is cofinal in }\mathfrak{A}.\\]
 The third condition is a necessary condition for $U$ to contain a limit of a subnet of $x$.
 Note that the order relation on $\mathfrak{A}'$ is defined as
-\[(\alpha,U,E)\prec(\alpha',U',E')\Leftrightarrow\]
-\[\alpha\prec\alpha',\ U\supset U',\ E\supset E'.\]
+\\[(\alpha,U,E)\prec(\alpha',U',E')\quad\Leftrightarrow\quad \alpha\prec\alpha',\ U\supset U',\ E\supset E'.\\]
 Define a subset $Z\subset\mathcal{P}(\mathfrak{A}')$ by
-\[\mathfrak{B}\in Z\Leftrightarrow\pi_\mathcal{T}(\mathfrak{B})\subset\mathcal{T}\text{ is directed}.\]
+\\[\mathfrak{B}\in Z\quad\Leftrightarrow\quad\pi_\mathcal{T}(\mathfrak{B})\subset\mathcal{T}\text{ is directed}.\\]
 The image of $\pi_\mathcal{T}$ will play a similar role like a "filter".
 We apply Zorn's lemma on $Z$ to make an "ultrafilter".
 
@@ -154,7 +154,7 @@ Let it denoted by $\mathfrak{M}$.
 Here are several facts about $\mathfrak{M}$:
 <ol>
 	<li> $\mathfrak{M}\subset\mathfrak{A}'$ inherits the order relation from $\mathfrak{A}\times\mathcal{T}\times\mathcal{U}$,</li>
-	<li> if $U\in\pi_\mathcal{T}(\mathfrak{M})$, then [x_\alpha\in U,\ U^2\subset E\ \Rightarrow\ (\alpha,U,E)\in\mathfrak{M}\\] by the maximality,</li>
+	<li> if $U\in\pi_\mathcal{T}(\mathfrak{M})$, then \[x_\alpha\in U,\ U^2\subset E\quad\Rightarrow\quad(\alpha,U,E)\in\mathfrak{M}\] by the maximality,</li>
 	<li> $\mathfrak{M}\in Z$, i.e. $\pi_\mathcal{T}(\mathfrak{M})$ is directed,</li>
 	<li> $\mathfrak{M}\subset\mathfrak{A}'$, i.e. $x^{-1}(U)$ is cofinal for $U\in\pi_\mathcal{T}(\mathfrak{M})$.</li>
 </ol>
@@ -188,11 +188,11 @@ Assume $E\notin\pi_\mathcal{U}(\mathfrak{M})$.
 Let $\\{V_i\\}\_i$ be a finite open cover of $X$ such that $V_i^2\subset E$ for all $i$.
 Suppose for each $i$ there is at least one $U_i\in\pi_\mathcal{T}(\mathfrak{M})$ such that $x^{-1}(U_i\cap V_i)$ is bounded above, i.e. not cofinal.
 If we let $U\in\pi_\mathcal{T}(\mathfrak{M})$ be an upper bound of $\\{U_i\\}\_i$, then $x^{-1}(U\cap V_i)\subset x^{-1}(U_i\cap V_i)$ is clearly bounded above for each $i$, so
-\[\bigcup_ix^{-1}(U\cap V_i)=x^{-1}(U\cap X)=x^{-1}(U)\]
+\\[\bigcup_ix^{-1}(U\cap V_i)=x^{-1}(U\cap X)=x^{-1}(U)\\]
 is also bounded above, which gives a contradiction to the cofinality of $x^{-1}(U)$.
 This implies the existence of an open set $V$ that satisfies $V^2\subset E$ and has $x^{-1}(U\cap V)$ cofinal for all $U\in\pi_\mathcal{T}(\mathfrak{M})$.
 With this $V$, it is deduced that $(U\cap V)^2\subset E$ and the cofinality of $x^{-1}(U\cap V)$ make the following collection
-\[\mathfrak{M}\_{V,E}:=\mathfrak{M}\cup\\{\,(\alpha,U\cap V,E):U\in\pi_\mathcal{T}(\mathfrak{M}),\ \alpha\in U\cap V\,\\}\]
+\\[\mathfrak{M}\_{V,E}:=\mathfrak{M}\cup\\{\,(\alpha,U\cap V,E):U\in\pi_\mathcal{T}(\mathfrak{M}),\ \alpha\in U\cap V\,\\}\\]
 be a subset of $\mathfrak{A}'$.
 Note that the union is a disjoint union because $E\notin\pi_\mathcal{U}(\mathfrak{M})$.
 Furthermore, $\mathfrak{M}\_{V,E}$ is contained in $Z$ as an element because $\pi_\mathcal{T}(\mathfrak{M}\_{V,E})=\pi_\mathcal{T}(\mathfrak{M})\cup\\{U\cap V\\}\_{U\in\pi_\mathcal{T}(\mathfrak{M})}$ is directed.
@@ -209,7 +209,7 @@ This proof is quite long.
 
 <center><b>V. Another proof using Tychonoff's theorem</b></center>
 
-This proof is by DL Frank, Columbia university, in 1965.
+This proof is by D. L. Frank, Columbia university, in 1965.
 See $[1]$.
 The proof used Tychonoff's theorem to avoid the extremely complicated application of Zorn's lemma.
 
@@ -220,7 +220,7 @@ Let $\mathcal{U}$ and $\mathcal{T}$ be the uniformity and topology of $X$ respec
 For $E\in\mathcal{U}$, associate a finite open cover $\\{U_{E,i}\\}\_i$ of $X$ such that $U_{E,i}^2\subset E$, using totally boundedness.
 Let $\mathcal{T}\_E$ be the topology on $X$ generated by the cover $\\{U_{E,i}\\}\_i$, having it as a subbase.
 The topological space $(X,\mathcal{T}\_E)$ is clearly compact so that it product space
-\[Y:=\prod_{E\in\mathcal{U}}(X,\mathcal{T}\_E)\]
+\\[Y:=\prod_{E\in\mathcal{U}}(X,\mathcal{T}\_E)\\]
 is also compact by the Tychonoff theorem.
 
 Let $x:\mathfrak{A}\to X$ be a net in $X$.
@@ -233,12 +233,12 @@ If we prove $xh$ is Cauchy, then we are done.
 
 Take any entourage $E$, and pick $U_{E,i}\in\mathcal{T}\_E$ containing $y(E)$.
 For an open neighborhood
-\[U_{E,i}\times\prod_{\mathcal{U}\setminus\\{E\\}}X\]
+\\[U_{E,i}\times\prod_{\mathcal{U}\setminus\\{E\\}}X\\]
 of $y$ in $Y$, there is $\beta_0\in\mathfrak{B}$ such that
-\[\beta\succ\beta_0\quad\Rightarrow\quad\Delta xh(\beta)\in U_{E,i}\times\prod_{\mathcal{U}\setminus\\{E\\}}X,\]
+\\[\beta\succ\beta_0\quad\Rightarrow\quad\Delta xh(\beta)\in U_{E,i}\times\prod_{\mathcal{U}\setminus\\{E\\}}X,\\]
 and the righ hand side practically implies $xh(\beta)\in U_{E,i}$.
 Therefore, for any $\beta,\beta'\succ\beta_0$ we have
-\[(x_{h(\beta)},x_{h(\beta')})\in U_{E,i}^2\subset E.\]
+\\[(x_{h(\beta)},x_{h(\beta')})\in U_{E,i}^2\subset E.\\]
 <span style="float: right">$\Box$&ensp;</span>
 
 <br>
@@ -261,7 +261,7 @@ Every net has a universal subnet.
 <b>Proof.</b>
 Let $x:\mathfrak{A}\to X$ be a net on a topological space $X$.
 Let $\mathcal{F}$ be the ultrafilter containing an eventuality filter of the net $x$.
-Define a directed set $\mathfrak{B}\subset\mathfrak{A}\times\mathcal{F}$ such that $(\alpha,U)\in\mathfrak{B}$ if and only if $\alpha\in U$, and a subnet $xh:\mathfrak{B}\to\mathfrak{A}\to X$ by $h(\alpha,U)=\alpha$ ($U$ is not open!).
+Define a directed set $\mathfrak{B}\subset\mathfrak{A}\times\mathcal{F}$ such that $(\alpha,U)\in\mathfrak{B}$ if and only if $\alpha\in U$, and let $xh:\mathfrak{B}\to\mathfrak{A}\to X$ be a subnet of $x$ such that $h(\alpha,U)=\alpha$ ($U$ is not open!).
 
 We claim $xh$ is universal.
 Take any subset $A\subset X$.
