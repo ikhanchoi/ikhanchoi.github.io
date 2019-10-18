@@ -6,7 +6,7 @@ date:   2019-09-22 18:20:00 +0900
 
 Totally boundedness is a way of descibing compactness in metric spaces.
 It can be generalized to uniform spaces in general, which do not allow the use of sequences.
-Related to this, I found a proof mistake on the celebrated book of Stephen Willard, one of masters in general topology.
+Related to this, I found a proof mistake on the celebrated book on general topology written by Stephen Willard.
 The purpose of this post is to fix the proof and practice the usage of subnets by generalizing the theorem.
 
 <!-- more -->
