@@ -91,7 +91,7 @@ Even though the sequence $x_n$ is frequently in both $U_\e$ and $U_{\e'}$, we ha
 
 We are going to firstly investigate the case of metric space.
 On a metric space, since the naturally induced topology from the metric is recovered by the sequential convergence data, when we want to show compactness by convergent subnets of arbitrary nets, we may restrict the conditions for nets to be only sequences.
-Also, for almost every application is provided with the metrized fubction space, the following proof has a unique value.
+Also, for almost every application is provided with the metrized function space, the following proof has its own value.
 
 
 <b>Theorem.</b>

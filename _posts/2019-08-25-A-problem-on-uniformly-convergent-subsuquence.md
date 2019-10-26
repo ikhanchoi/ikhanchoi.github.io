@@ -4,7 +4,7 @@ title:  "A problem on uniformly convergent subsequence"
 date:   2019-08-25 21:18:00 +0900
 ---
 
-In a continuous function space endowed with uiform topology, it is natural to apply the Arzela-Ascoli theorem to check if a set of functions is (relatively) compact.
+In a continuous function space endowed with uniform topology, it is natural to apply the Arzela-Ascoli theorem to check if a set of functions is (relatively) compact.
 However, I met a impressive problem that cannot use the theorem but asks whether the solvers understand the proof of the theorem.
 
 <!-- more -->
