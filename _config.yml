@@ -24,3 +24,4 @@ gems: ['jekyll-paginate']
 
 
 excerpt_separator: <!-- more -->
+future: false
