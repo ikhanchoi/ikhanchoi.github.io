@@ -211,7 +211,7 @@ This proof is quite long.
 
 This proof is by D. L. Frank, Columbia university, in 1965.
 See $[1]$.
-The proof used Tychonoff's theorem to avoid the extremely complicated application of Zorn's lemma.
+The proof used Tychonoff's theorem to avoid the complicated application of Zorn's lemma.
 
 <b>Proof 2 of Theorem 1.1.</b>
 Let $X$ be a totally bounded uniform space.
@@ -228,7 +228,7 @@ We are going to show $x$ has a Cauchy subnet.
 
 Consider the diagonal map $\Delta:X\to Y$.
 Then $\Delta x:\mathfrak{A}\to Y$ is a net, which should possess a convergent subnet due to the compactness of $Y$.
-Let it denoted by $\Delta xh:\mathfrak{B}\to{h}\mathfrak{A}\to Y$, and let $y:\mathcal{U}\to X$ be the limit point.
+Let it denoted by $\Delta xh:\mathfrak{B}\to\mathfrak{A}\to Y$, and let $y:\mathcal{U}\to X$ be the limit point.
 If we prove $xh$ is Cauchy, then we are done.
 
 Take any entourage $E$, and pick $U_{E,i}\in\mathcal{T}\_E$ containing $y(E)$.
