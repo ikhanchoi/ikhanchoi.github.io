@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Double counting and bipartite graphs"
-date:   2019-08-25 20:31:00 +0900
+date:   3000-01-01 00:00:00 +0900
 ---
 
 Double counting is a proof technique that is mainly used in mathematical olympiad problems.

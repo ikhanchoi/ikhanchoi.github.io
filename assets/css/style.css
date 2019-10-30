@@ -1,33 +1,17 @@
-
-
 body {
-	max-width: 600px;
-	margin: 0 auto;
-	padding-top: 30px;
-	font-family: 'Lora', serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-family: 'Lora', serif;
 }
 
 nav {
-	padding: 0 5px;
+  padding: 0 5px;
 }
 
 section, footer {
-	padding: 5px 12px;
+  padding: 5px 12px;
 }
-
-
-.katex-display > .katex {
-	white-space: nowrap;
-	max-width: 100%;
-	overflow-x: auto;
-	overflow-y: hidden;
-}
-.katex {
-	font-size: 1em !important;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-
 
 a:link { color: darkred; text-decoration: none;}
 a:visited { color: darkred; text-decoration: none;}
