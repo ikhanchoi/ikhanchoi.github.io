@@ -36,6 +36,10 @@ class Encoder(nn.Module):
 
 
 <center><b>III. Decoder</b></center>
+The internal structure of a decoder cell can be drawn as follows:
+<img src='{{site.url}}/assets/svg/decoder.svg' style='width: 100%; height: : auto'>
+It gets input tensor, hidden state tensor, and the tensor containing outputs from the encoder.
+It returns output tensor and newly updated hidden state tensor.
 
 ```py
 class Decoder(nn.Module):
@@ -121,4 +125,42 @@ class Seq2Seq(nn.Module):
 			outputs[t] = output
 			input = output.max(1)[1]
 		return outputs
+```
+
+
+<center><b>V. Training</b></center>
+
+I used the `torchtext` package to implement the trainer class.
+The type of `train_data` is list of tuple of tensors.
+The size of each tuple is same with the number of fields, such as languages or lables.
+In the following code, the data is prepared from a parallel corpus so that the data is a list of pairs of two tensors, and each tensor is a batch of one-hot encded sentences.
+
+```py
+def train(self, train_data):
+	print("[!] training model...")
+	import time
+	batch_loss = 0
+	start = time.time()
+	for b, batch in enumerate(train_data):
+		sources = batch.src
+		targets = batch.trg
+		sources = sources.to(device) # [Tx,B]
+		targets = targets.to(device) # [Ty,B]
+		
+		self.optim.zero_grad()
+		outputs = self.model(sources, targets.size(0)) # forward propagation
+		loss = self.lossf(
+			outputs[1:].view(-1, outputs.size(2)), # [Ty*B;Kx]<-[Ty,B;Kx]
+			targets[1:].view(-1) # [Ty*B]<-[Ty,B]
+		)
+		loss.backward() # back propagation
+		torch.nn.utils.clip_grad_norm_(self.model.parameters(), 10.0)
+		self.optim.step()
+		
+		batch_loss += loss.item() # loss is [1]-shape tensor
+		if (b+1) % 40 == 0:
+			print("[Batch : %4d/%4d] "%(b+1, len(train_data)),
+				  "[Avg Loss : %5.3f]"%(batch_loss/40))
+			batch_loss = 0
+	print("[TIME : %.2f"%(time.time()-start))
 ```
