@@ -1,13 +1,34 @@
 ---
 layout: post
-title:  "Implementation of Seq2seq translation model"
-date:   3000-01-01 00:00:00 +0900
+title:  "Internship projects on natural language processing"
+date:   2019-11-30 01:54:00 +0900
 ---
 
-Excerpt
+In a three-month summer internship at a small venture, I have learned basic NLP and implemented some interesting models.
+Two major results include a shoddy Korean dialect translator made by a variation of HMM and an implementation of Seq2seq model with attention mechanism.
 
 <!-- more -->
 
+
+<center><b>I. HMM on finite automata for dialect translation</b></center>
+
+Before beginning, I must notify that it did not show satisfiable performance.
+In my defense, Korean dialect translation problem is extremely hard because of lack of data.
+I have barely collected a small parallel corpus that consists of approximately 25,000 pair of Korean dialect-standard sentences.
+
+The translator is basically based on the Hidden Markov model(HMM).
+(Now writing...)
+
+
+
+<center><b>II. Implementation of Seq2seq with attention</b></center>
+
+The Seq2seq model is a neural network model for natural language translation. 
+It uses the classical encoder-decoder structure with RNN cells and reflects the contexts of source language sentences by introducing an alignment mechanism, which is called "attention".
+Alignment had been one of the main problems in statistical machine translation, and this model can be considered as the first application of alignment in neural network models.
+The paper I implemented can be find [here](https://arxiv.org/abs/1409.0473) $[1]$.
+
+At first, import the pytorch package.
 
 ```py
 import torch
@@ -15,7 +36,7 @@ import torch.nn as nn
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 ```
 
-<center><b>II. Encoder</b></center>
+The encoder part has been implemented as follows.
 
 ```py
 class Encoder(nn.Module):
@@ -33,9 +54,15 @@ class Encoder(nn.Module):
 		return outputs, hidden # [Tx,B;2H],[2,B;H]
 ```
 
+Here, $K_x$, $T_x$, $B$ denote the size of source language vocabulary, the maximum length of sentences, and the batch size respectively.
+The class gets `input`, which has type of tensor of size $T_x\times B$, as an input.
+This tensor is prepared to contain $B$ one-hot encoded sentences whose maximum length is $T_x$, and the empty spaces after the `eos` token are padded.
+Then, it outputs output vectors obtained from each cell that will be used to make context vectors in alignment model and the last hidden vector that will be used to make initial hidden vector of decoder.
+I have chosen GRU cell instead of vanila RNN cell or LSTM, and it is guessed that GRU is lighter than LSTM and does not lose its performance.
+By calling `self.gru` only once, tensors propagate the circuit consisting of linearly connected `Tx` GRU cells.
+The number `2` in `outputs` and `hidden` is due to the encoder cell is set to be bidirectional.
 
-
-<center><b>III. Decoder</b></center>
+The main difficulty is the decoder.
 The internal structure of a decoder cell can be drawn as follows:
 <img src='{{site.url}}/assets/svg/decoder.svg' style='width: 100%; height: : auto'>
 It gets input tensor, hidden state tensor, and the tensor containing outputs from the encoder.
@@ -90,10 +117,20 @@ class Decoder(nn.Module):
 		return context # [B,2H]
 
 ```
+This GRU cell should not be bidirectional.
+Unlike encoder, `self.gru` go through only one GRU cell.
+It will be called `Ty` times when running a for loop of length `Ty` in `Seq2Seq.forward`.
+The size of input `embed` vector is added by `2H` because context vector was attached.
+The member `lsm` takes log-softmax for de-embedding and to get a log-probability distribution that the RNN output vector is corresponded to each taget language word.
 
+Especially, `attn` has its unique role here.
+Referring to hidden vector and the full-length output from encoder, it returns attention weights at each decoding time `ty`.
+Note that the input length is `Tx`, not `Ty`.
+The intput hidden vector is made by repeating the original decoder hidden of shape `[B;H]`, `Tx` times.
+The encoder output is universally used at all decoding time `ty` wihtout modification.
+Since the time `ty` is fixed in `decoder.forward`, the attention weights are not given by a matrix, but a `Tx`-dimensional real vector.
 
-
-<center><b>IV. Seq2seq model</b></center>
+Lastly, the encoder and decoder cells are combined.
 
 ```py
 class Seq2Seq(nn.Module):
@@ -127,10 +164,11 @@ class Seq2Seq(nn.Module):
 		return outputs
 ```
 
+When instantiating the class, all attributes and their learnable paramters are automatically drawn in CUDA, if available.
+The member `init_hidden` initializes hidden vector for decoding.
+More precisely, it gets last hidden vector on reverse direction obtained from the encoder, and returns initial hidden vector for decoding.
 
-<center><b>V. Training</b></center>
-
-I used the `torchtext` package to implement the trainer class.
+For practical training, I used the `torchtext` package to implement the trainer class.
 The type of `train_data` is list of tuple of tensors.
 The size of each tuple is same with the number of fields, such as languages or lables.
 In the following code, the data is prepared from a parallel corpus so that the data is a list of pairs of two tensors, and each tensor is a batch of one-hot encded sentences.
@@ -164,3 +202,9 @@ def train(self, train_data):
 			batch_loss = 0
 	print("[TIME : %.2f"%(time.time()-start))
 ```
+
+Although this model is for translation, with this model I could successfully made a simple sentiment analyzer that prints its polarity for each given Korean sentence.
+
+<center><b>References</b></center>
+
+$[1]$ D. Bahdanau, K. Cho, Y. Benglo, <i>Neural machine translation by jointly learning to align and translate,</i> arXiv preprint arXiv:1409.0473 (2014).
