@@ -3,6 +3,17 @@ body {
   margin: 0 auto;
   padding-top: 30px;
   font-family: 'Lora', serif;
+  counter-reset: section;
+}
+
+h2 {
+  font-size: 12pt;
+  text-align: center;
+}
+
+h2:before {
+  content: counter(section) ".\0000a0\0000a0";
+  counter-increment: section;
 }
 
 nav {
