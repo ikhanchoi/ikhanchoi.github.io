@@ -17,5 +17,5 @@ done
 
 today=$(date +"%y/%m/%d")
 git add *
-git commit -m '$today'
+git commit -m $today
 git push
