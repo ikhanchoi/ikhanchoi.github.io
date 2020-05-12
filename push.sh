@@ -15,6 +15,7 @@ done
 #   tikz(특히 commutative diagram)
 #	bib
 
+today='%D'
 git add *
-git commit -m %D
+git commit -m $today
 git push
