@@ -16,5 +16,5 @@ done
 #	bib
 
 git add *
-git commit -m '%D'
+git commit -m %D
 git push
