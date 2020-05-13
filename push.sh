@@ -5,7 +5,7 @@ assetdir=./assets/postgenerator
 # 포스트 생성
 for entry in $sourcedir/*; do
 	name=${entry##*/}
-	date=$(grep '\date{' '$sourcedir/$name/$name.tex' | rev | cut -c 1-10 | rev)
+	date=$(grep '\date{' $sourcedir/$name/$name.tex | rev | cut -c 1-10 | rev)
 	pandoc --lua-filter=$assetdir/filter.lua --template=$assetdir/template.md --shift-heading-level=1 --atx-header --standalone -N -o ../../_posts/$date-$name.md $sourcedir/$name/$name.tex
 done
 
