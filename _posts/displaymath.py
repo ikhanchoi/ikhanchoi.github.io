@@ -14,3 +14,4 @@ for f in [f for f in listdir('./') if isfile(join('./', f))]:
 	with open(f,'w') as h:
 		for line in newlines:
 			h.write(line)
+	print('done')
