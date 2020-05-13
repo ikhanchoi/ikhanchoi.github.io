@@ -23,8 +23,8 @@ for entry in $sourcedir/*; do
 	sed -i 's#(tagopen)#<#g' "$target"
 	sed -i 's#(tagclose)#>#g' "$target"
 done
-dollar=./_posts/displaymath.py
-python3 $dollar
+
+python3 displaymath.py
 
 # 푸시
 git add *
