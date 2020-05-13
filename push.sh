@@ -23,6 +23,7 @@ for entry in $sourcedir/*; do
 	sed -i 's#(tagopen)#<#g' "$target"
 	sed -i 's#(tagclose)#>#g' "$target"
 done
+python ./_posts/displaymath.py
 
 
 # 푸시
