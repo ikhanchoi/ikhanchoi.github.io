@@ -2,6 +2,7 @@ from os import listdir
 from os.path import isfile, join
 for f in [f for f in listdir('./_posts/') if isfile(join('./_posts/', f))]:
 	newlines = []
+	print(f)
 	if not f.endswith('md'):
 		continue
 	with open(f, 'r') as g:
