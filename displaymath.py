@@ -3,7 +3,6 @@ from os.path import isfile, join
 for f in [f for f in listdir('./_posts/') if isfile(join('./_posts/', f))]:
 	f = './_posts/' + f
 	newlines = []
-	print(f)
 	if not f.endswith('md'):
 		continue
 	with open(f, 'r') as g:
@@ -16,4 +15,3 @@ for f in [f for f in listdir('./_posts/') if isfile(join('./_posts/', f))]:
 	with open(f,'w') as h:
 		for line in newlines:
 			h.write(line)
-	print('done')
