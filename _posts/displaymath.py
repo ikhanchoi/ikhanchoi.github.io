@@ -1,6 +1,6 @@
 from os import listdir
 from os.path import isfile, join
-for f in [f for f in listdir('./') if isfile(join('./', f))]:
+for f in [f for f in listdir('./_posts/') if isfile(join('./_posts/', f))]:
 	newlines = []
 	if not f.endswith('md'):
 		continue
