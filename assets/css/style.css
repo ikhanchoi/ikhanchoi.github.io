@@ -6,14 +6,24 @@ body {
   counter-reset: section;
 }
 
-h2 {
+h4 {
   font-size: 12pt;
   text-align: center;
+  counter-reset: subsection;
 }
 
-h2:before {
+h4:before {
   content: counter(section) ".\0000a0\0000a0";
   counter-increment: section;
+}
+
+h5 {
+  font-size: 12pt;
+}
+
+h5:before {
+  content: counter(section) "." counter(subsection) ".\0000a0\0000a0";
+  counter-increment: subsection;
 }
 
 nav {
@@ -23,6 +33,7 @@ nav {
 section, footer {
   padding: 5px 12px;
 }
+
 
 a:link { color: darkred; text-decoration: none;}
 a:visited { color: darkred; text-decoration: none;}
