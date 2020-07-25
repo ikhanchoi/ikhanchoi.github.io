@@ -22,82 +22,17 @@ Donghyun Lee.
 
 
 
-1.
-
-\\[
-\left\{\ \begin{alignedat}{2}
-f(x)&=x  &&  x\in X \\
-g(x)&=x
-\end{alignedat}\right.
-\\]
-
-2.
-
-\\[
-\left\{\ \begin{alignedat}{2}
-f(x)&=x  &&  x\in X \\\
-g(x)&=x
-\end{alignedat}\right.
-\\]
-
-3.
-
-\\[
-\left\{\ \begin{alignedat}{2}
-f(x)&=x  &&  x\in X \\\\
-g(x)&=x
-\end{alignedat}\right.
-\\]
-
-
-\\[\{1\}\\{2\\}\\]
-
-\\[\\{3\\}_4\\]
-
-\\[\mathbb{R}_t\\]
-
-\\[\\{3\\}\_4\\]
-
-\\[\mathbb{R}\_t\\]
-
-\\[\|x\|+\\|x\\|\\]
-
-4.
-
-\\[\begin{alignedat}{2}
-f(x)&=x  &&  x\in X \\\
-g(x)&=x
-\end{alignedat}\\]
-
-5.
-
-\\[\left\\{\ \begin{alignedat}{2}
-f(x)&=x  &&  x\in X \\\
-g(x)&=x
-\end{alignedat}\right.\\]
-
-6.
-
-\\[k(x)\to\begin{alignedat}{2}
-f(x)&=x  &&  x\in X \\\
-g(x)&=x
-\end{alignedat}\\]
-
-
-
-
 #### Vlasov-Poisson system
 
 Consider the following Cauchy problem for the *Valsov-Poisson system*:
 
-\\[\begin{aligned}
-\left\{\ \begin{alignedat}{2}
+\\[\left\\{\ \begin{alignedat}{2}
 &\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}_t^+\times\mathbb{R}_x^3\times\mathbb{R}_v^3,\\
 &E(t,x)=-\nabla_x\Phi,\\
 &\Phi(t,x)=(-\Delta_x)^{-1}\rho,&&\hspace{-2em}\lim_{x\to\infty}\Phi(t,x)=0,\\
 &\rho(t,x)={\textstyle\int}f\,dv,\\
 &f(0,x,v)=f_0(x,v)\ge0,
-\end{alignedat}\right.\end{aligned}\\]
+\end{alignedat}\right.\\]
 
 where $\gamma=\pm1$. For example, we have *repulsive problem*
 $\gamma=+1$ for electrons in plasma theory and *attractive problems*
@@ -134,35 +69,35 @@ existence.
 
 We use the asymptotic notation
 
-$$g(t)\lesssim h(t)\iff\exists\,c=c(f_0),\quad g(t)\le c\,h(t)$$
+\\[g(t)\lesssim h(t)\iff\exists\,c=c(f_0),\quad g(t)\le c\,h(t)\\]
 
 and
 
-$$g(t)\simeq h(t)\iff\exists\,c,\quad g(t)=c\,h(t).$$
+\\[g(t)\simeq h(t)\iff\exists\,c,\quad g(t)=c\,h(t).\\]
 
 This report does not contain any other norms except the $L^p$ norms so
 that double vertical bars always refer to the $L^p$ norms. We also omit
 marginalized variables and the subscript $L$. For example,
 
-$$\|f(t)\|_p=(\iint|f(t,x,v)|^p\,dv\,dx)^{1/p},\quad\|\rho(t)\|_p=(\int|\rho(r,x)|^p\,dx)^{1/p}.$$
+\\[\\|f(t)\\|_p=(\iint\|f(t,x,v)\|^p\,dv\,dx)^{1/p},\quad\\|\rho(t)\\|_p=(\int|\rho(r,x)|^p\,dx)^{1/p}.\\]
 
 ##### Poisson equation
 
 For the three-dimensional boundaryless problem of the Poisson equation
 
-$$-\Delta\Phi(x)=\rho(x)$$
+\\[-\Delta\Phi(x)=\rho(x)\\]
 
 in which the solution $\Phi$ vanishes at infinity, it is well-known that
 
-$$\Phi=\tfrac1{4\pi|x|}*\rho,$$
+\\[\Phi=\tfrac1{4\pi|x|}*\rho,\\]
 
 so the electric field in the Vlasov-Poisson system is given by
 
-$$E=-\nabla_x\Phi=-\nabla_x(\tfrac1{4\pi|x|}*\rho)=\frac{x}{4\pi|x|^3}*\rho.$$
+\\[E=-\nabla_x\Phi=-\nabla_x(\tfrac1{4\pi|x|}*\rho)=\frac{x}{4\pi|x|^3}*\rho.\\]
 
 It can be rewritten as
 
-$$E(t,x)=\frac1{4\pi}\int\frac{(x-y)\rho(t,y)}{|x-y|^3}\,dy.$$
+\\[E(t,x)=\frac1{4\pi}\int\frac{(x-y)\rho(t,y)}{|x-y|^3}\,dy.\\]
 
 The nonlinearity of the system is originated from the force field $E$,
 so its estimates play a crucial role in study of the nonlinear system.
@@ -175,33 +110,33 @@ Let $\rho\in C_c^1(\mathbb{R}^d)$.
 
 (Field estimate)
 
-$$\|\tfrac1{|x|^{d-1}}*\rho\|_\infty\lesssim\|\rho\|_\infty^{1-1/d}\|\rho\|_1^{1/d}$$
+\\[\\|\tfrac1{|x|^{d-1}}*\rho\\|_\infty\lesssim\\|\rho\\|_\infty^{1-1/d}\\|\rho\\|_1^{1/d}\\]
 
 (Field derivative estimate) For $\log^+(x):=\max\\{0,\log x\\}$,
 
-$$\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\|_\infty\lesssim 1+\|\rho\|_\infty\log^+\|\nabla\rho\|_\infty+\|\rho\|_1.$$
+\\[\\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\\|_\infty\lesssim 1+\|\rho\|_\infty\log^+\\|\nabla\rho\\|_\infty+\\|\rho\\|_1.\\]
 
 Let $0\le\frac1p\le\frac\alpha d\le \frac1q\le1$. Since
 $(d-\alpha)p\le d\le (d-\alpha)q$,
 
-$$\begin{aligned}
+\\[\begin{aligned}
 |\tfrac1{|x|^{d-\alpha}}*\rho|
-&=\int_{|x-y|\le R}\frac{\rho(y)}{|x-y|^{d-\alpha}}\,dy+\int_{|x-y|\ge R}\frac{\rho(y)}{|x-y|^{d-\alpha}}\,dy\\
-&\le\|\rho\|_{p'}(\int_{|y|\le R}\frac{dy}{|y|^{(d-\alpha)p}})^{1/p}+\|\rho\|_{q'}(\int_{|y|\ge R}\frac{dy}{|y|^{(d-\alpha)q}})^{1/q}\\
-&\simeq\|\rho\|_{p'}(\int_0^Rr^{d-1-(d-\alpha)p}\,dr)^{1/p}+\|\rho\|_{q'}(\int_R^\infty r^{d-1-(d-\alpha)q}\,dr)^{1/q}\\
-&\simeq\|\rho\|_{p'}R^{\frac dp-d+\alpha}+\|\rho\|_{q'}R^{\frac dq-d+\alpha}.\end{aligned}$$
+&=\int_{|x-y|\le R}\frac{\rho(y)}{|x-y|^{d-\alpha}}\,dy+\int_{|x-y|\ge R}\frac{\rho(y)}{|x-y|^{d-\alpha}}\,dy\\\
+&\le\\|\rho\\|_{p'}(\int_{|y|\le R}\frac{dy}{|y|^{(d-\alpha)p}})^{1/p}+\\|\rho\\|_{q'}(\int_{|y|\ge R}\frac{dy}{|y|^{(d-\alpha)q}})^{1/q}\\\
+&\simeq\\|\rho\\|_{p'}(\int_0^Rr^{d-1-(d-\alpha)p}\,dr)^{1/p}+\\|\rho\\|_{q'}(\int_R^\infty r^{d-1-(d-\alpha)q}\,dr)^{1/q}\\\
+&\simeq\\|\rho\\|_{p'}R^{\frac dp-d+\alpha}+\\|\rho\\|_{q'}R^{\frac dq-d+\alpha}.\end{aligned}\\]
 
 By choosing $R$ such that
 
-$$\|\rho\|_{p'}R^{\frac dp-d+\alpha}=\|\rho\|_{q'}R^{\frac dq-d+\alpha},$$
+\\[\\|\rho\\|_{p'}R^{\frac dp-d+\alpha}=\\|\rho\\|_{q'}R^{\frac dq-d+\alpha},\\]
 
 we get
 
-$$\|\tfrac1{|x|^{d-\alpha}}*\rho\|_\infty\lesssim\|\rho\|_{p'}^{\frac{1-\frac\alpha d-\frac1q}{\frac1p-\frac1q}}\|\rho\|_{q'}^{\frac{\frac1p-1+\frac\alpha d}{\frac1p-\frac1q}},$$
+\\[\\|\tfrac1{|x|^{d-\alpha}}*\rho\\|_\infty\lesssim\\|\rho\\|_{p'}^{\frac{1-\frac\alpha d-\frac1q}{\frac1p-\frac1q}}\\|\rho\\|_{q'}^{\frac{\frac1p-1+\frac\alpha d}{\frac1p-\frac1q}},\\]
 
 so the inequality
 
-$$\|\tfrac1{|x|^{d-\alpha}}*\rho\|_\infty^{\frac1q-\frac1p}\lesssim\|\rho\|_p^{\frac1q-\frac\alpha d}\|\rho\|_q^{\frac\alpha d-\frac1p}$$
+\\[\\|\tfrac1{|x|^{d-\alpha}}*\rho\\|_\infty^{\frac1q-\frac1p}\lesssim\\|\rho\\|_p^{\frac1q-\frac\alpha d}\\|\rho\\|_q^{\frac\alpha d-\frac1p}\\]
 
 is obtained by interchaning $p$ and $q$ with their conjugates. The
 desired result gets $p=\infty$, $\alpha=1$, and $q=1$.
@@ -209,41 +144,41 @@ desired result gets $p=\infty$, $\alpha=1$, and $q=1$.
 Let $0\le R_a\le R_b$ be constants which will be determined later.
 Divide the region radially
 
-$$\begin{aligned}
-|\nabla(\tfrac1{|x|^{d-1}}*\rho)|\lesssim\nabla\int_{|x-y|\le R_a}+\nabla\int_{R_a\le|x-y|\le R_b}+\nabla\int_{R_b\le|x-y|}.\end{aligned}$$
+\\[
+\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\|\lesssim\nabla\int_{\|x-y\|\le R_a}+\nabla\int_{R_a\le\|x-y\|\le R_b}+\nabla\int_{R_b\le\|x-y\|}.\\]
 
 For the first integral,
 
-$$\begin{aligned}
+\\[\begin{aligned}
 \int_{|y|\le R_a}\frac{\nabla\rho(x-y)}{|y|^{d-1}}\,dy
-&\le\|\nabla\rho\|_\infty\int_{|y|\le R_a}\frac1{|y|^{d-1}}\,dy\\
-&\simeq\|\nabla\rho\|_\infty\int_0^{R_a}1\,dr
-=R_a\|\nabla\rho\|_\infty.\end{aligned}$$
+&\le\\|\nabla\rho\\|_\infty\int_{|y|\le R_a}\frac1{|y|^{d-1}}\,dy\\\
+&\simeq\\|\nabla\rho\\|_\infty\int_0^{R_a}1\,dr
+=R_a\\|\nabla\rho\\|_\infty.\end{aligned}\\]
 
 For the second integral,
 
-$$\begin{aligned}
+\\[\begin{aligned}
 \int_{R_a\le|x-y|\le R_b}\frac{\rho(y)}{|x-y|^d}\,dy
-&\le\|\rho\|_\infty\int_{R_a\le|x-y|\le R_b}\frac1{|x-y|^d}\,dy\\
+&\le\|\rho\|_\infty\int_{R_a\le|x-y|\le R_b}\frac1{|x-y|^d}\,dy\\\
 &\simeq\|\rho\|_\infty\int_{R_a}^{R_b}\frac1r\,dr
-=(\log\tfrac{R_b}{R_a})\|\rho\|_\infty.\end{aligned}$$
+=(\log\tfrac{R_b}{R_a})\|\rho\|_\infty.\end{aligned}\\]
 
 For the third integral,
 
-$$\int_{R_b\le|x-y|}\frac{\rho(y)}{|x-y|^d}\,dy\le R_b^{-d}\|\rho\|_1.$$
+\\[\int_{R_b\le|x-y|}\frac{\rho(y)}{|x-y|^d}\,dy\le R_b^{-d}\|\rho\|_1.\\]
 
 Thus,
 
-$$|\nabla(\tfrac1{|x|^{d-1}}*\rho)|\lesssim R_a\|\nabla\rho\|_\infty+(\log\tfrac{R_b}{R_a})\|\rho\|_\infty+R_b^{-d}\|\rho\|_1.$$
+\\[|\nabla(\tfrac1{|x|^{d-1}}*\rho)|\lesssim R_a\|\nabla\rho\|_\infty+(\log\tfrac{R_b}{R_a})\|\rho\|_\infty+R_b^{-d}\|\rho\|_1.\\]
 
 Assuming $\rho$ is nonzero so that $\\|\nabla\rho\\|\_\infty>0$, let $R_a=\min\\{1,\\|\nabla\rho\\|\_\infty^{-1}\\}$ and $R_b=1$.
 Since
 
-$$\log\tfrac1{R_a}\le\log^+\|\nabla\rho\|_\infty\quad\text{and}\quad R_a\lesssim\|\nabla\rho\|_\infty,$$
+\\[\log\tfrac1{R_a}\le\log^+\|\nabla\rho\|_\infty\quad\text{and}\quad R_a\lesssim\|\nabla\rho\|_\infty,\\]
 
 we have
 
-$$\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\|_\infty\lesssim 1+\|\rho\|_\infty\log^+\|\nabla\rho\|_\infty+\|\rho\|_1.$$
+\\[\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\|_\infty\lesssim 1+\|\rho\|_\infty\log^+\|\nabla\rho\|_\infty+\|\rho\|_1.\\]
 
 ##### Characteristics and volume preservation
 
