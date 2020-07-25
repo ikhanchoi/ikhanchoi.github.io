@@ -2,7 +2,8 @@ title: 'Ikhan Choi'
 
 url: 'https://ikhanchoi.github.io'
 baseurl: ''
-archiveurl: '~/Git/mathnotes'
+archiveurl: 'C:/users/administrator/Desktop/Git/mathnotes'
+#~/Git/mathnotes
 
 markdown: kramdown
 markdown_ext: 'md'
@@ -10,7 +11,7 @@ highlighter: rouge
 
 kramdown:
   input: GFM
-  math_engine: nil
+  #math_engine: nil
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: 'highlight'
@@ -27,7 +28,7 @@ paginate_path: '/pages/posts/page:num'
 
 source: .
 destination: ./_site
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 
 
 excerpt_separator: <!-- more -->

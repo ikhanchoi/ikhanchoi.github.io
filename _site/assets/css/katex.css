@@ -1,0 +1,11 @@
+.katex-display > .katex {
+  white-space: nowrap;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.katex {
+  font-size: 1em !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
