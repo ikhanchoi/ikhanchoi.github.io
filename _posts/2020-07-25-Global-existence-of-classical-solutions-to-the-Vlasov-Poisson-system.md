@@ -21,6 +21,7 @@ during 2019 fall semester, under the support and advice of professor
 Donghyun Lee.
 
 
+
 1.
 
 \\[
@@ -51,6 +52,36 @@ g(x)&=x
 
 \\[\{1\}\\{2\\}\\]
 
+\\[\\{3\\}_4\\]
+
+\\[\mathbb{R}_t\\]
+
+\\[\\{3\\}\_4\\]
+
+\\[\mathbb{R}\_t\\]
+
+\\[\|x\|+\\|x\\|\\]
+
+4.
+
+\\[\begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\
+g(x)&=x
+\end{alignedat}\\]
+
+5.
+
+\\[\left\\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\
+g(x)&=x
+\end{alignedat}\right.\\]
+
+6.
+
+\\[k(x)\to\begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\
+g(x)&=x
+\end{alignedat}\\]
 
 
 
