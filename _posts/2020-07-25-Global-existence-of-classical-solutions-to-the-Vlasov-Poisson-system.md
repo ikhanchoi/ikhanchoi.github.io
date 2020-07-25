@@ -27,7 +27,7 @@ Donghyun Lee.
 Consider the following Cauchy problem for the *Valsov-Poisson system*:
 
 \\[\left\\{\ \begin{alignedat}{2}
-&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}_t^+\times\mathbb{R}_x^3\times\mathbb{R}_v^3,\\\
+&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}\_t^+\times\mathbb{R}\_x^3\times\mathbb{R}\_v^3,\\\
 &E(t,x)=-\nabla_x\Phi,\\\
 &\Phi(t,x)=(-\Delta_x)^{-1}\rho,&&\hspace{-2em}\lim_{x\to\infty}\Phi(t,x)=0,\\\
 &\rho(t,x)={\textstyle\int}f\,dv,\\\
@@ -89,7 +89,7 @@ For the three-dimensional boundaryless problem of the Poisson equation
 
 in which the solution $\Phi$ vanishes at infinity, it is well-known that
 
-\\[\Phi=\tfrac1{4\pi|x|}\*\rho,\\]
+\\[\Phi=\tfrac1{4\pi\|x\|}\*\rho,\\]
 
 so the electric field in the Vlasov-Poisson system is given by
 
@@ -97,7 +97,7 @@ so the electric field in the Vlasov-Poisson system is given by
 
 It can be rewritten as
 
-\\[E(t,x)=\frac1{4\pi}\int\frac{(x-y)\rho(t,y)}{|x-y|^3}\,dy.\\]
+\\[E(t,x)=\frac1{4\pi}\int\frac{(x-y)\rho(t,y)}{\|x-y\|^3}\,dy.\\]
 
 The nonlinearity of the system is originated from the force field $E$,
 so its estimates play a crucial role in study of the nonlinear system.
@@ -110,7 +110,7 @@ Let $\rho\in C_c^1(\mathbb{R}^d)$.
 
 (Field estimate)
 
-\\[\\|\tfrac1{|x|^{d-1}}*\rho\\|_\infty\lesssim\\|\rho\\|_\infty^{1-1/d}\\|\rho\\|_1^{1/d}\\]
+\\[\\|\tfrac1{\|x\|^{d-1}}*\rho\\|\_\infty\lesssim\\|\rho\\|\_\infty^{1-1/d}\\|\rho\\|\_1^{1/d}\\]
 
 (Field derivative estimate) For $\log^+(x):=\max\\{0,\log x\\}$,
 
@@ -136,7 +136,7 @@ we get
 
 so the inequality
 
-\\[\\|\tfrac1{|x|^{d-\alpha}}*\rho\\|_\infty^{\frac1q-\frac1p}\lesssim\\|\rho\\|_p^{\frac1q-\frac\alpha d}\\|\rho\\|_q^{\frac\alpha d-\frac1p}\\]
+\\[\\|\tfrac1{|x|^{d-\alpha}}*\rho\\|\_\infty^{\frac1q-\frac1p}\lesssim\\|\rho\\|\_p^{\frac1q-\frac\alpha d}\\|\rho\\|\_q^{\frac\alpha d-\frac1p}\\]
 
 is obtained by interchaning $p$ and $q$ with their conjugates. The
 desired result gets $p=\infty$, $\alpha=1$, and $q=1$.
