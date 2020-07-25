@@ -79,7 +79,7 @@ This report does not contain any other norms except the $L^p$ norms so
 that double vertical bars always refer to the $L^p$ norms. We also omit
 marginalized variables and the subscript $L$. For example,
 
-\\[\\|f(t)\\|\_p=(\iint\|f(t,x,v)\|^p\,dv\,dx)^{1/p},\quad\\|\rho(t)\\|\_p=(\int|\rho(r,x)|^p\,dx)^{1/p}.\\]
+\\[\\|f(t)\\|\_p=(\iint\|f(t,x,v)\|^p\,dv\,dx)^{1/p},\quad\\|\rho(t)\\|\_p=(\int\|\rho(r,x)\|^p\,dx)^{1/p}.\\]
 
 ##### Poisson equation
 
@@ -114,29 +114,29 @@ Let $\rho\in C_c^1(\mathbb{R}^d)$.
 
 (Field derivative estimate) For $\log^+(x):=\max\\{0,\log x\\}$,
 
-\\[\\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\\|_\infty\lesssim 1+\|\rho\|_\infty\log^+\\|\nabla\rho\\|_\infty+\\|\rho\\|_1.\\]
+\\[\\|\nabla(\tfrac1{\|x\|^{d-1}}*\rho)\\|\_\infty\lesssim 1+\\|\rho\\|\_\infty\log^+\\|\nabla\rho\\|\_\infty+\\|\rho\\|\_1.\\]
 
 Let $0\le\frac1p\le\frac\alpha d\le \frac1q\le1$. Since
 $(d-\alpha)p\le d\le (d-\alpha)q$,
 
 \\[\begin{aligned}
-|\tfrac1{|x|^{d-\alpha}}*\rho|
-&=\int_{|x-y|\le R}\frac{\rho(y)}{|x-y|^{d-\alpha}}\,dy+\int_{|x-y|\ge R}\frac{\rho(y)}{|x-y|^{d-\alpha}}\,dy\\\
-&\le\\|\rho\\|_{p'}(\int_{|y|\le R}\frac{dy}{|y|^{(d-\alpha)p}})^{1/p}+\\|\rho\\|_{q'}(\int_{|y|\ge R}\frac{dy}{|y|^{(d-\alpha)q}})^{1/q}\\\
-&\simeq\\|\rho\\|_{p'}(\int_0^Rr^{d-1-(d-\alpha)p}\,dr)^{1/p}+\\|\rho\\|_{q'}(\int_R^\infty r^{d-1-(d-\alpha)q}\,dr)^{1/q}\\\
-&\simeq\\|\rho\\|_{p'}R^{\frac dp-d+\alpha}+\\|\rho\\|_{q'}R^{\frac dq-d+\alpha}.\end{aligned}\\]
+\|\tfrac1{|x|^{d-\alpha}}*\rho\|
+&=\int\_{\|x-y\|\le R}\frac{\rho(y)}{\|x-y\|^{d-\alpha}}\,dy+\int\_{\|x-y\|\ge R}\frac{\rho(y)}{\|x-y\|^{d-\alpha}}\,dy\\\
+&\le\\|\rho\\|\_{p'}(\int\_{\|y\|\le R}\frac{dy}{\|y\|^{(d-\alpha)p}})^{1/p}+\\|\rho\\|\_{q'}(\int\_{\|y\|\ge R}\frac{dy}{\|y\|^{(d-\alpha)q}})^{1/q}\\\
+&\simeq\\|\rho\\|\_{p'}(\int\_0^Rr^{d-1-(d-\alpha)p}\,dr)^{1/p}+\\|\rho\\|\_{q'}(\int\_R^\infty r^{d-1-(d-\alpha)q}\,dr)^{1/q}\\\
+&\simeq\\|\rho\\|\_{p'}R^{\frac dp-d+\alpha}+\\|\rho\\|\_{q'}R^{\frac dq-d+\alpha}.\end{aligned}\\]
 
 By choosing $R$ such that
 
-\\[\\|\rho\\|_{p'}R^{\frac dp-d+\alpha}=\\|\rho\\|_{q'}R^{\frac dq-d+\alpha},\\]
+\\[\\|\rho\\|\_{p'}R^{\frac dp-d+\alpha}=\\|\rho\\|\_{q'}R^{\frac dq-d+\alpha},\\]
 
 we get
 
-\\[\\|\tfrac1{|x|^{d-\alpha}}*\rho\\|_\infty\lesssim\\|\rho\\|_{p'}^{\frac{1-\frac\alpha d-\frac1q}{\frac1p-\frac1q}}\\|\rho\\|_{q'}^{\frac{\frac1p-1+\frac\alpha d}{\frac1p-\frac1q}},\\]
+\\[\\|\tfrac1{\|x\|^{d-\alpha}}\*\rho\\|\_\infty\lesssim\\|\rho\\|\_{p'}^{\frac{1-\frac\alpha d-\frac1q}{\frac1p-\frac1q}}\\|\rho\\|\_{q'}^{\frac{\frac1p-1+\frac\alpha d}{\frac1p-\frac1q}},\\]
 
 so the inequality
 
-\\[\\|\tfrac1{|x|^{d-\alpha}}*\rho\\|\_\infty^{\frac1q-\frac1p}\lesssim\\|\rho\\|\_p^{\frac1q-\frac\alpha d}\\|\rho\\|\_q^{\frac\alpha d-\frac1p}\\]
+\\[\\|\tfrac1{\|x\|^{d-\alpha}}\*\rho\\|\_\infty^{\frac1q-\frac1p}\lesssim\\|\rho\\|\_p^{\frac1q-\frac\alpha d}\\|\rho\\|\_q^{\frac\alpha d-\frac1p}\\]
 
 is obtained by interchaning $p$ and $q$ with their conjugates. The
 desired result gets $p=\infty$, $\alpha=1$, and $q=1$.
@@ -144,41 +144,40 @@ desired result gets $p=\infty$, $\alpha=1$, and $q=1$.
 Let $0\le R_a\le R_b$ be constants which will be determined later.
 Divide the region radially
 
-\\[
-|\nabla(\tfrac1{|x|^{d-1}}*\rho)|\lesssim\nabla\int_{|x-y|\le R_a}+\nabla\int_{R_a\le|x-y|\le R_b}+\nabla\int_{R_b\le|x-y|}.\\]
+\\[\|\nabla(\tfrac1{|x|^{d-1}}\*\rho)\|\lesssim\nabla\int\_{\|x-y\|\le R_a}+\nabla\int\_{R\_a\le\|x-y\|\le R\_b}+\nabla\int\_{R\_b\le\|x-y\|}.\\]
 
 For the first integral,
 
 \\[\begin{aligned}
-\int_{|y|\le R_a}\frac{\nabla\rho(x-y)}{|y|^{d-1}}\,dy
-&\le\\|\nabla\rho\\|_\infty\int_{|y|\le R_a}\frac1{|y|^{d-1}}\,dy\\\
-&\simeq\\|\nabla\rho\\|_\infty\int_0^{R_a}1\,dr
-=R_a\\|\nabla\rho\\|_\infty.\end{aligned}\\]
+\int\_{\|y\|\le R_a}\frac{\nabla\rho(x-y)}{\|y\|^{d-1}}\,dy
+&\le\\|\nabla\rho\\|\_\infty\int\_{\|y\|\le R\_a}\frac1{\|y\|^{d-1}}\,dy\\\
+&\simeq\\|\nabla\rho\\|\_\infty\int\_0^{R\_a}1\,dr
+=R\_a\\|\nabla\rho\\|\_\infty.\end{aligned}\\]
 
 For the second integral,
 
 \\[\begin{aligned}
-\int_{R_a\le|x-y|\le R_b}\frac{\rho(y)}{|x-y|^d}\,dy
-&\le\|\rho\|_\infty\int_{R_a\le|x-y|\le R_b}\frac1{|x-y|^d}\,dy\\\
-&\simeq\|\rho\|_\infty\int_{R_a}^{R_b}\frac1r\,dr
-=(\log\tfrac{R_b}{R_a})\|\rho\|_\infty.\end{aligned}\\]
+\int\_{R\_a\le\|x-y\|\le R\_b}\frac{\rho(y)}{\|x-y\|^d}\,dy
+&\le\\|\rho\\|\_\infty\int\_{R\_a\le\|x-y\|\le R\_b}\frac1{\|x-y\|^d}\,dy\\\
+&\simeq\\|\rho\\|\_\infty\int\_{R\_a}^{R_b}\frac1r\,dr
+=(\log\tfrac{R\_b}{R\_a})\\|\rho\\|\_\infty.\end{aligned}\\]
 
 For the third integral,
 
-\\[\int_{R_b\le|x-y|}\frac{\rho(y)}{|x-y|^d}\,dy\le R_b^{-d}\|\rho\|_1.\\]
+\\[\int\_{R\_b\le\|x-y\|}\frac{\rho(y)}{\|x-y\|^d}\,dy\le R\_b^{-d}\\|\rho\\|\_1.\\]
 
 Thus,
 
-\\[|\nabla(\tfrac1{|x|^{d-1}}*\rho)|\lesssim R_a\|\nabla\rho\|_\infty+(\log\tfrac{R_b}{R_a})\|\rho\|_\infty+R_b^{-d}\|\rho\|_1.\\]
+\\[\|\nabla(\tfrac1{\|x\|^{d-1}}\*\rho)\|\lesssim R\_a\\|\nabla\rho\\|\_\infty+(\log\tfrac{R\_b}{R\_a})\\|\rho\\|\_\infty+R\_b^{-d}\\|\rho\\|\_1.\\]
 
-Assuming $\rho$ is nonzero so that $\\|\nabla\rho\\|\_\infty>0$, let $R_a=\min\\{1,\\|\nabla\rho\\|\_\infty^{-1}\\}$ and $R_b=1$.
+Assuming $\rho$ is nonzero so that $\\|\nabla\rho\\|\_\infty>0$, let $R\_a=\min\\{1,\\|\nabla\rho\\|\_\infty^{-1}\\}$ and $R\_b=1$.
 Since
 
-\\[\log\tfrac1{R_a}\le\log^+\|\nabla\rho\|_\infty\quad\text{and}\quad R_a\lesssim\|\nabla\rho\|_\infty,\\]
+\\[\log\tfrac1{R\_a}\le\log^+\\|\nabla\rho\\|\_\infty\quad\text{and}\quad R\_a\lesssim\\|\nabla\rho\\|\_\infty,\\]
 
 we have
 
-\\[\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\|_\infty\lesssim 1+\|\rho\|_\infty\log^+\|\nabla\rho\|_\infty+\|\rho\|_1.\\]
+\\[\\|\nabla(\tfrac1{\|x\|^{d-1}}\*\rho)\\|\_\infty\lesssim 1+\\|\rho\\|\_\infty\log^+\\|\nabla\rho\\|\_\infty+\\|\rho\\|\_1.\\]
 
 ##### Characteristics and volume preservation
 
