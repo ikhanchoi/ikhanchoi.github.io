@@ -11,7 +11,7 @@ highlighter: rouge
 
 kramdown:
   input: GFM
-  #math_engine: nil
+  math_engine: nil
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: 'highlight'
