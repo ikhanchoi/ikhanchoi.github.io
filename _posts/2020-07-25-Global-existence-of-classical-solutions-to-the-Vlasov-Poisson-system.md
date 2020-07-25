@@ -20,6 +20,127 @@ This report is written in Undergraduate Research Program of Postech
 during 2019 fall semester, under the support and advice of professor
 Donghyun Lee.
 
+
+1.
+
+\\[\begin{aligned}
+\left\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\
+g(x)&=x
+\end{alignedat}\right.
+\end{aligned}\\]
+
+2.
+
+\\[\begin{aligned}
+\left\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\
+g(x)&=x
+\end{alignedat}\right.
+\end{aligned}\\]
+
+3.
+
+\\[\begin{aligned}
+\left\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\\
+g(x)&=x
+\end{alignedat}\right.
+\end{aligned}\\]
+
+4.
+
+$$\begin{aligned}
+\left\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\
+g(x)&=x
+\end{alignedat}\right.
+\end{aligned}$$
+
+5.
+
+$$\begin{aligned}
+\left\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\
+g(x)&=x
+\end{alignedat}\right.
+\end{aligned}$$
+
+6.
+
+$$\begin{aligned}
+\left\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\\
+g(x)&=x
+\end{alignedat}\right.
+\end{aligned}$$
+
+7.
+
+\\[\begin{aligned}
+f(x)&=x \\
+g(x)&=x
+\end{aligned}\\]
+
+8.
+
+\\[\begin{aligned}
+f(x)&=x \\\
+g(x)&=x
+\end{aligned}\\]
+
+9.
+
+\\[\begin{aligned}
+f(x)&=x \\\\
+g(x)&=x
+\end{aligned}\\]
+
+10.
+
+$$\begin{aligned}
+f(x)&=x \\
+g(x)&=x
+\end{aligned}$$
+
+11.
+
+$$\begin{aligned}
+f(x)&=x \\\
+g(x)&=x
+\end{aligned}$$
+
+12.
+
+$$\begin{aligned}
+f(x)&=x \\\\
+g(x)&=x
+\end{aligned}$$
+
+13.
+
+\\[\begin{aligned}
+f(x)=x
+\end{aligned}\\]
+
+14.
+
+$$\begin{aligned}
+f(x)=x
+\end{aligned}$$
+
+15.
+
+\\[f(x)\\]
+
+16.
+
+$$f(x)$$
+
+
+
+
+
 #### Vlasov-Poisson system
 
 Consider the following Cauchy problem for the *Valsov-Poisson system*:
