@@ -27,10 +27,10 @@ Donghyun Lee.
 Consider the following Cauchy problem for the *Valsov-Poisson system*:
 
 \\[\left\\{\ \begin{alignedat}{2}
-&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}_t^+\times\mathbb{R}_x^3\times\mathbb{R}_v^3,\\
-&E(t,x)=-\nabla_x\Phi,\\
-&\Phi(t,x)=(-\Delta_x)^{-1}\rho,&&\hspace{-2em}\lim_{x\to\infty}\Phi(t,x)=0,\\
-&\rho(t,x)={\textstyle\int}f\,dv,\\
+&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}_t^+\times\mathbb{R}_x^3\times\mathbb{R}_v^3,\\\
+&E(t,x)=-\nabla_x\Phi,\\\
+&\Phi(t,x)=(-\Delta_x)^{-1}\rho,&&\hspace{-2em}\lim_{x\to\infty}\Phi(t,x)=0,\\\
+&\rho(t,x)={\textstyle\int}f\,dv,\\\
 &f(0,x,v)=f_0(x,v)\ge0,
 \end{alignedat}\right.\\]
 
@@ -79,7 +79,7 @@ This report does not contain any other norms except the $L^p$ norms so
 that double vertical bars always refer to the $L^p$ norms. We also omit
 marginalized variables and the subscript $L$. For example,
 
-\\[\\|f(t)\\|_p=(\iint\|f(t,x,v)\|^p\,dv\,dx)^{1/p},\quad\\|\rho(t)\\|_p=(\int|\rho(r,x)|^p\,dx)^{1/p}.\\]
+\\[\\|f(t)\\|\_p=(\iint\|f(t,x,v)\|^p\,dv\,dx)^{1/p},\quad\\|\rho(t)\\|\_p=(\int|\rho(r,x)|^p\,dx)^{1/p}.\\]
 
 ##### Poisson equation
 
@@ -89,11 +89,11 @@ For the three-dimensional boundaryless problem of the Poisson equation
 
 in which the solution $\Phi$ vanishes at infinity, it is well-known that
 
-\\[\Phi=\tfrac1{4\pi|x|}*\rho,\\]
+\\[\Phi=\tfrac1{4\pi|x|}\*\rho,\\]
 
 so the electric field in the Vlasov-Poisson system is given by
 
-\\[E=-\nabla_x\Phi=-\nabla_x(\tfrac1{4\pi|x|}*\rho)=\frac{x}{4\pi|x|^3}*\rho.\\]
+\\[E=-\nabla\_x\Phi=-\nabla\_x(\tfrac1{4\pi\|x\|}\*\rho)=\frac{x}{4\pi\|x\|^3}\*\rho.\\]
 
 It can be rewritten as
 
@@ -145,7 +145,7 @@ Let $0\le R_a\le R_b$ be constants which will be determined later.
 Divide the region radially
 
 \\[
-\|\nabla(\tfrac1{|x|^{d-1}}*\rho)\|\lesssim\nabla\int_{\|x-y\|\le R_a}+\nabla\int_{R_a\le\|x-y\|\le R_b}+\nabla\int_{R_b\le\|x-y\|}.\\]
+|\nabla(\tfrac1{|x|^{d-1}}*\rho)|\lesssim\nabla\int_{|x-y|\le R_a}+\nabla\int_{R_a\le|x-y|\le R_b}+\nabla\int_{R_b\le|x-y|}.\\]
 
 For the first integral,
 
