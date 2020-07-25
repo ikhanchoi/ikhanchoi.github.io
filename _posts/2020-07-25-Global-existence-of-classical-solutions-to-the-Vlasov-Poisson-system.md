@@ -144,7 +144,7 @@ desired result gets $p=\infty$, $\alpha=1$, and $q=1$.
 Let $0\le R_a\le R_b$ be constants which will be determined later.
 Divide the region radially
 
-\\[\|\nabla(\tfrac1{|x|^{d-1}}\*\rho)\|\lesssim\nabla\int\_{\|x-y\|\le R_a}+\nabla\int\_{R\_a\le\|x-y\|\le R\_b}+\nabla\int\_{R\_b\le\|x-y\|}.\\]
+\\[\|\nabla(\tfrac1{\|x\|^{d-1}}\*\rho)\|\lesssim\nabla\int\_{\|x-y\|\le R_a}+\nabla\int\_{R\_a\le\|x-y\|\le R\_b}+\nabla\int\_{R\_b\le\|x-y\|}.\\]
 
 For the first integral,
 
