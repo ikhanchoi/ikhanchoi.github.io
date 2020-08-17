@@ -6,8 +6,6 @@ date:   2020-01-20 00:00:00 +0900
 ---
 {% raw %}
 
-
-
 <!-- more -->
 
 <center><b>
@@ -45,7 +43,7 @@ solution of the Cauchy problem for the Vlasov-Poisson system. More
 precisely, we prove there is a unique global $C_c^1$ solution when
 given a $C_c^1$ initial data $f_0$. Let us define our solution space.
 
-Let $f_0:\mathbb{R}^6\to[0,\infty]$ be a function. A function
+Let $f\_0:\mathbb{R}^6\to[0,\infty]$ be a function. A function
 $f:[0,T]\times\mathbb{R}^6\to\mathbb{R}$ is said to be a *classical
 solution* of the Cauchy problem for the Vlasov-Poisson system with
 initial data $f\_0$ if $f\in C^1([0,T];C\_c^1(\mathbb{R}^6))$ and

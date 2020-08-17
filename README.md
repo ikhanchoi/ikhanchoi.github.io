@@ -2,9 +2,21 @@
 
 
 
-- 언더바도 가능하면 \_를 쓰도록 하자 그리고 \|가 절댓값 하나고 \\|가 절댓값 두 개짜리임 애스터리스크도 \*를 쓰자
-- \dd, \pd 구현하기
-- 현재 블라소프 푸아송 1-1까지는 렌더링 잘 되는 상태
+- 매쓰모드 치환
+	- 언더바 \_, 절댓값 \|, 노름 \\|, 애스터리스크 \*
+- title, author, date
+- section, subsection
+- amsthm
+- enumitem
+- abstract
+- 강조
+- tikz
+- \dd, \pd
+- bibtex
+- \\[\begin{align}
+- newcommand
+
+현재 블라소프 푸아송 1-1까지는 렌더링 잘 되는 상태
 
 
 
