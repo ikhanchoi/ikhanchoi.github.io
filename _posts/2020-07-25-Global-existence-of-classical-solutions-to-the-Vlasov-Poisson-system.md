@@ -24,13 +24,13 @@ Donghyun Lee.
 
 Consider the following Cauchy problem for the *Valsov-Poisson system*:
 
-$$\left\\{\ \begin{alignedat}{2}
-&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}\_t^+\times\mathbb{R}\_x^3\times\mathbb{R}\_v^3,\\\
-&E(t,x)=-\nabla_x\Phi,\\\
-&\Phi(t,x)=(-\Delta_x)^{-1}\rho,&&\hspace{-2em}\lim_{x\to\infty}\Phi(t,x)=0,\\\
-&\rho(t,x)={\textstyle\int}f\,dv,\\\
+\\[\left\\{\ \begin{alignedat}{2}
+&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}\_t^+\times\mathbb{R}\_x^3\times\mathbb{R}\_v^3,\\
+&E(t,x)=-\nabla_x\Phi,\\
+&\Phi(t,x)=(-\Delta_x)^{-1}\rho,&&\hspace{-2em}\lim_{x\to\infty}\Phi(t,x)=0,\\
+&\rho(t,x)={\textstyle\int}f\,dv,\\
 &f(0,x,v)=f_0(x,v)\ge0,
-\end{alignedat}\right.$$
+\end{alignedat}\right.\\]
 
 where $\gamma=\pm1$. For example, we have *repulsive problem*
 $\gamma=+1$ for electrons in plasma theory and *attractive problems*
@@ -117,12 +117,12 @@ Let $\rho\in C_c^1(\mathbb{R}^d)$.
 Let $0\le\frac1p\le\frac\alpha d\le \frac1q\le1$. Since
 $(d-\alpha)p\le d\le (d-\alpha)q$,
 
-\\[\begin{aligned}
+$$\begin{aligned}
 \|\tfrac1{|x|^{d-\alpha}}*\rho\|
-&=\int\_{\|x-y\|\le R}\frac{\rho(y)}{\|x-y\|^{d-\alpha}}\,dy+\int\_{\|x-y\|\ge R}\frac{\rho(y)}{\|x-y\|^{d-\alpha}}\,dy\\\
-&\le\\|\rho\\|\_{p'}(\int\_{\|y\|\le R}\frac{dy}{\|y\|^{(d-\alpha)p}})^{1/p}+\\|\rho\\|\_{q'}(\int\_{\|y\|\ge R}\frac{dy}{\|y\|^{(d-\alpha)q}})^{1/q}\\\
-&\simeq\\|\rho\\|\_{p'}(\int\_0^Rr^{d-1-(d-\alpha)p}\,dr)^{1/p}+\\|\rho\\|\_{q'}(\int\_R^\infty r^{d-1-(d-\alpha)q}\,dr)^{1/q}\\\
-&\simeq\\|\rho\\|\_{p'}R^{\frac dp-d+\alpha}+\\|\rho\\|\_{q'}R^{\frac dq-d+\alpha}.\end{aligned}\\]
+&=\int\_{\|x-y\|\le R}\frac{\rho(y)}{\|x-y\|^{d-\alpha}}\,dy+\int\_{\|x-y\|\ge R}\frac{\rho(y)}{\|x-y\|^{d-\alpha}}\,dy\\
+&\le\\|\rho\\|\_{p'}(\int\_{\|y\|\le R}\frac{dy}{\|y\|^{(d-\alpha)p}})^{1/p}+\\|\rho\\|\_{q'}(\int\_{\|y\|\ge R}\frac{dy}{\|y\|^{(d-\alpha)q}})^{1/q}\\
+&\simeq\\|\rho\\|\_{p'}(\int\_0^Rr^{d-1-(d-\alpha)p}\,dr)^{1/p}+\\|\rho\\|\_{q'}(\int\_R^\infty r^{d-1-(d-\alpha)q}\,dr)^{1/q}\\
+&\simeq\\|\rho\\|\_{p'}R^{\frac dp-d+\alpha}+\\|\rho\\|\_{q'}R^{\frac dq-d+\alpha}.\end{aligned}$$
 
 By choosing $R$ such that
 
