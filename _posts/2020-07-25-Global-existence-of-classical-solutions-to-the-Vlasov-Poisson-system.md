@@ -25,7 +25,7 @@ Donghyun Lee.
 Consider the following Cauchy problem for the *Valsov-Poisson system*:
 
 $$\left\{\ \begin{alignedat}{2}
-&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}\_t^+\times\mathbb{R}\_x^3\times\mathbb{R}\_v^3,\\
+&\partial_tf+v\cdot\nabla_xf+\gamma E\cdot\nabla_vf=0,&&\qquad(t,x,v)\in\mathbb{R}_t^+\times\mathbb{R}_x^3\times\mathbb{R}_v^3,\\
 &E(t,x)=-\nabla_x\Phi,\\
 &\Phi(t,x)=(-\Delta_x)^{-1}\rho,&&\hspace{-2em}\lim_{x\to\infty}\Phi(t,x)=0,\\
 &\rho(t,x)={\textstyle\int}f\,dv,\\
