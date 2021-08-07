@@ -2,11 +2,7 @@
 <html>
 	<head>
 		<title>
-			{% if page.title %}
-				{{ page.title }}
-			{% else %} 
-				{{ site.title }}
-			{% endif %}
+			{{ site.title }}
 		</title>
 
 		
@@ -23,11 +19,7 @@
 		<link rel='stylesheet' href='{{site.url}}/assets/css/katex.css'>
 
 		<!-- math setting -->
-		{% if page.mathjax %}
-			{% include mathjax.html %}
-		{% else %}
-			{% include katex.html %}
-		{% endif %}
+		{% include katex.html %}
 
 	</head>
 
@@ -43,11 +35,9 @@
 		<nav style='text-align: center;'>
 			<a href='/'>Home</a>
 			<span>&emsp;&ensp;&emsp;</span>
-			<a href='/pages/archive.html'>Archive</a>
+			<a href='/pages/cv'>CV</a>
 			<span>&emsp;&ensp;&emsp;</span>
-			<a href='/pages/posts'>Posts</a>
-			<span>&emsp;&ensp;&emsp;</span>
-			<a href='/pages/softwares.html'>Softwares</a>
+			<a href='/pages/archive'>Archive</a>
 		</nav>
 
 		<hr>

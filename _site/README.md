@@ -1,7 +1,20 @@
 # Ikhan Choi's Blog
 
+____posts 폴더 안의 모든 정보를 매스노트로 잘 옮기고 deprecate 할 것
 
 
-- display math 쓸 때 위아래 빈 줄 만들고 더블달러 사용하기
-- inline math 에서는 \_, \|, \\|, display math 에서는 _, |, \| 사용하기
-- \dd, \pd 구현하기
+\\[\left\\{\ \begin{alignedat}{2}
+f(x)&=x  &&  x\in X \\\
+g(x)&=x
+\end{alignedat}\right.\\]
+
+\\[\begin{aligned}
+f(x)&=x \\\
+g(x)&=x
+\end{aligned}\\]
+
+\\[\begin{aligned}
+f(x)=x
+\end{aligned}\\]
+
+\\[f(x)\\]
