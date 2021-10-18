@@ -1,0 +1,54 @@
+I"�
+<p>Excerpt</p>
+
+<!-- more -->
+
+<center><b>I. Introduction</b></center>
+
+<p><b>Theorem 1.1.</b>
+This post is not presented on the blog.</p>
+
+<p><b>Proof.</b>
+The <code class="language-plaintext highlighter-rouge">config.yml</code> file contains <code class="language-plaintext highlighter-rouge">future: false</code>.
+Since this post is written as a template, I set the date on 31 December, 2099.
+Thus, this post is not uploaded on the blog.
+<span style="float: right">$\Box$ </span></p>
+
+<p><b>Remark</b>
+If we type <code class="language-plaintext highlighter-rouge">jekyll s --future</code> on the terminal, we can see the posts from the future at <code class="language-plaintext highlighter-rouge">localhost:4000</code>.
+Posts from A.D. 3000 refer to drafts.</p>
+
+<center><b>II. Mathematics</b></center>
+
+<p><b>Theorem 2.1.</b>
+Let $f:U\to\C$ be a holomorphic function.
+For $a\in U$, the function $f$ can be represented locally at $a$ as a convergent power series expansion
+\[f(z)=\sum_{n=0}^\infty a_n(z-a)^n.\]</p>
+
+<p><b>Proof.</b>
+Let $\gamma$ be a sufficiently small circle centered at $a$ such that $\gamma\subset U$.
+By the Cauchy integral formula and the uniform convergence of power series, we have
+\[\begin{aligned}
+f(z)
+&amp;=\frac1{2\pi i}\int_\gamma\frac{f(\zeta)}{\zeta-z}\,d\zeta\<br />
+&amp;=\frac1{2\pi i}\int_\gamma\frac1{1-\frac{z-a}{\zeta-a}}\cdot\frac{f(\zeta)}{\zeta-a}\,d\zeta\<br />
+&amp;=\frac1{2\pi i}\int_\gamma\ \sum_{n=0}^\infty\left(\frac{z-a}{\zeta-a}\right)^n\frac{f(\zeta)}{\zeta-a}\,d\zeta\<br />
+&amp;=\sum_{n=0}^\infty\frac1{2\pi i}\int_\gamma\frac{f(\zeta)}{(\zeta-a)^{n+1}}\,d\zeta\cdot(z-a)^n\<br />
+&amp;=\sum_{n=0}^\infty a_n(z-a)^n
+\end{aligned}\]
+for $z\in\mathrm{int}(\gamma)$, where
+\[a_n=\frac1{2\pi i}\int_\gamma\frac{f(\zeta)}{(\zeta-a)^{n+1}}\,d\zeta.\]
+<span style="float: right">$\Box$ </span><br /></p>
+
+<center><b>III. Codes</b></center>
+
+<p>Here is a python code:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+	<span class="k">print</span><span class="p">(</span><span class="s">"I love you!"</span><span class="p">)</span> <span class="c1"># I am so happy!!
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+<p>Wow, I love you too!</p>
+:ET
