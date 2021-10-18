@@ -18,5 +18,7 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-google_analytics:
-  tracking_id: G-BSE1ZPMKGC
+plugins:
+  - jekyll-sitemap
+
+google_analytics: G-BSE1ZPMKGC
