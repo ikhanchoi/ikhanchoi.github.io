@@ -4,6 +4,7 @@ body {
   padding-top: 30px;
   font-family: 'Lora', serif;
   counter-reset: section;
+  line-height: 150%;
 }
 
 h4 {
@@ -35,5 +36,5 @@ section, footer {
 }
 
 
-a:link { color: darkred; text-decoration: none;}
-a:visited { color: darkred; text-decoration: none;}
+a:link { color: darkgreen; text-decoration: none;}
+a:visited { color: darkgreen; text-decoration: none;}
