@@ -1,15 +1,36 @@
 ---
 layout: default
 ---
+<script type="text/javascript">
+  var imageURLs = [
+       "/assets/img/220107.jpg",
+       //"/assets/img/220516.jpeg"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" align=\"right\" style=\"width: 120px;\"/>';
+    return img;
+  }
+  document.write(getImageTag());
+</script>
 
 <p>
-	Hi, I'm Ikhan Choi.
-</p>
-<p>
-	I am a math-majored undergraduate student from South Korea.<br>
-	
+	Hi, I'm Ikhan Choi.<br>
+	I am a Korean math-majored student studying at ...<br><br><br><br><br>
 </p>
 
 <p>
-	Contact: dlrgks623 at naver dot com
+	I am mainly interested in:
+	<ul>
+		<li> Operator algebra, abstract harmonic analysis, and algebraic quantum field theory</li>
+		<li> Representation theory regarding symmetries of physical systems</li>
+		<li> Functional and harmonic analytic techniques in other fields of mathematics</li>
+		<li> Numerical and statistical simulations of some physical phenomena</li>
+	</ul>
+</p>
+
+<p>
+	Contact: dlrgks623[at]naver.com
 </p>

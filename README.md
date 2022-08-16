@@ -1,6 +1,28 @@
-# Ikhan Choi's Blog
+# Ikhan Choi's Website
 
-____posts 폴더 안의 모든 정보를 매스노트로 잘 옮기고 deprecate 할 것
+Home
+소개/이력/취미/연락
+
+News *
+뉴스
+개인 일정
+
+Seminars *
+세미나 관련 안내, 일정
+
+CV
+이력서 공식/비공식
+논문/강연/직책/책 리스트
+
+Teaching *
+연구실 관련, 학생 목록, 연구실 소개
+수업 자료
+
+Notes
+공부한 것: 노트, 에세이, 논문 정리 등등
+
+Blog
+일기, 기사
 
 
 \\[\left\\{\ \begin{alignedat}{2}

@@ -5,7 +5,5 @@
   overflow-y: hidden;
 }
 .katex {
-  font-size: 1em !important;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  font-size: 11pt !important;
 }
