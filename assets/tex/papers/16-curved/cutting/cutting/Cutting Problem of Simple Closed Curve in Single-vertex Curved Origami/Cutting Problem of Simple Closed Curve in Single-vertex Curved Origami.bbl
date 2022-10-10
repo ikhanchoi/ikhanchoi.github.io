@@ -1,0 +1,57 @@
+\begin{thebibliography}{10}
+
+\bibitem{4}
+Thomas~C. Hull.
+\newblock The combinatorics flat folds: a survey.
+\newblock {\em arXiv:1307.1065v1, 3 Jul}, 2013.
+
+\bibitem{6}
+E.~Fiume M.~Sun.
+\newblock A technique for constructing developable surfaces.
+\newblock {\em Proceedings of the conference on Graphics interface}, 1996.
+
+\bibitem{3}
+Christian D.~Statangelo Marcelo A.~Dias.
+\newblock The shape and mechanics of curved fold origami.
+\newblock {\em arXiv:1210.0778v2, 24 Nov}, 2012.
+
+\bibitem{2}
+L.~Mahadevan Christian D.~Statangelo Marcelo A.~Dias, Levi H.~Dudte.
+\newblock Geometric mechanics of curved crease origami.
+\newblock {\em Physical Review Letters}, 109, 114301, 2012.
+
+\bibitem{1}
+Barry~Hayes Marshall~Bern.
+\newblock The complexity of flat origami.
+\newblock {\em Proceedings of the seventh annual ACM-SIAM symposium on Discrete
+  algorithms}, 1996.
+
+\bibitem{5}
+Jun Mitani.
+\newblock A method for designing crease patterns for flat-foldable origami with
+  numerical optimization.
+\newblock {\em Journal for Geometry and Graphics}, 15, 2011.
+
+\bibitem{7}
+T.~Tachi.
+\newblock Generalization of rigid foldable quadrilateral mesh origami.
+\newblock {\em Proceedings of the International Association for Shell and
+  Spatial (LASS) Symposium 2009 28 Sep - 2 Oct}, 2009.
+
+\bibitem{8}
+T.~Tachi.
+\newblock Geometric considerations for the design of rigid origami structures.
+\newblock {\em Proceedings of the International Association for Shell and
+  Spatial (LASS) Symposium 2010 Nov 8-12}, 2010.
+
+\bibitem{9}
+Zhong~You Weina~Wu.
+\newblock Modelling rigid origami with quaternions and dual quaternions.
+\newblock {\em Proceedings of the Royal Society}, Sep 8, 2011 467 2133, 2010.
+
+\bibitem{10}
+김강태.
+\newblock {\em 미분기하학}.
+\newblock 교우사, 2000.
+
+\end{thebibliography}

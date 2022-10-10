@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{arkin2004can}
+Esther~M Arkin, Michael~A Bender, Erik~D Demaine, Martin~L Demaine, Joseph~SB
+  Mitchell, Saurabh Sethia, and Steven~S Skiena.
+\newblock When can you fold a map?
+\newblock {\em Computational Geometry}, 29(1):23--46, 2004.
+
+\bibitem{dacorogna2008lipschitz}
+Bernard Dacorogna, Paolo Marcellini, and Emanuele Paolini.
+\newblock Lipschitz-continuous local isometric immersions: rigid maps and
+  origami.
+\newblock {\em Journal de math{\'e}matiques pures et appliqu{\'e}es},
+  90(1):66--81, 2008.
+
+\bibitem{demaine2000folding}
+Erik~D Demaine, Martin~L Demaine, and Anna Lubiw.
+\newblock Folding and cutting paper.
+\newblock In {\em Discrete and Computational Geometry}, pages 104--118.
+  Springer, 2000.
+
+\bibitem{hull1994mathematics}
+Thomas Hull.
+\newblock On the mathematics of flat origamis.
+\newblock {\em Congressus numerantium}, pages 215--224, 1994.
+
+\bibitem{kawasaki1989relation}
+Toshikazu Kawasaki.
+\newblock On the relation between mountain-creases and valley-creases of a flat
+  origami.
+\newblock In {\em Proceedings of the 1st International Meeting of Origami
+  Science and Technology}, pages 229--237, 1989.
+
+\bibitem{lang1996computational}
+Robert~J Lang.
+\newblock A computational algorithm for origami design.
+\newblock In {\em Proceedings of the twelfth annual symposium on Computational
+  geometry}, pages 98--105. ACM, 1996.
+
+\end{thebibliography}
