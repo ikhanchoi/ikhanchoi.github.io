@@ -1,0 +1,157 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+</style>
+<span style="font-family:'Gowun Dodum',sans-serif;">
+
+<center><h2>2022 펄어비스 겨울인턴십 포트폴리오 페이지</h2></center>
+
+<center><img src="vietnam.jpg" width=200></center>
+
+
+<h3>0. 자기소개</h3>
+안녕하세요, 최익한입니다.<br>
+무한한 상상력이 실제가 되고 세상에 지칠 땐 언제든 돌아와 쉴 수 있는 가상세계를 꿈꾸고 있습니다.<br>
+
+
+<br>
+&ensp;<i class="fa fa-graduation-cap" style="font-size:11px"></i>
+&emsp;서울과학고등학교 졸업 (2016년 2월)<br>
+&ensp;<i class="fa fa-university" style="font-size:11px"></i>
+&emsp;포항공과대학교 수학과 졸업 (2022년 8월)<br>
+&emsp;<i class="fa fa-envelope-square" style="font-size:13px"></i>
+&emsp;&ensp;dlrgks623 [at] gmail.com<br>
+&emsp;<i class="fa fa-github" style="font-size:13px"></i>
+&emsp;&ensp;<a href="https://github.com/ikhanchoi/simulations">github.com/ikhanchoi</a><br>
+&emsp;<i class="fa fa-language" style="font-size:13px"></i>
+&emsp;&ensp;한국어, English, 日本語<br><br>
+
+Last updated: 22.11.6 오후 11시 58분
+
+
+<br><br>
+<h3>1. 자연어 처리 경험</h3>
+
+2019년 6월부터 8월까지 세 달 동안 인공지능 챗봇 스타트업인 Persona AI에서 진행한 인턴십 프로그램 결과물에 대한 소개입니다.<br>
+인턴십 시작 2주 전부터 파이썬을 공부하기 시작하여, 약 두 달 간 챗봇의 사투리 대응을 위해 사투리 번역기 제작을 시도하며 자연어처리에 대한 기초적인 개념을 습득했습니다<br>
+
+<br>
+소스코드는 <a href="https://github.com/ikhanchoi/simulations/tree/master/ml"><b>이곳</b></a>에서 확인하실 수 있습니다.<br>
+
+
+
+
+
+
+
+
+
+<br><center><b>사투리 번역기</b></center><br>
+
+nltk를 사용하여 사투리 음운 분석기를 구현하였습니다. 유한상태기계를 접목시킨 가변길이 히든마르코프 모델을 세우고 비터비 알고리즘을 변형함으로써 만들었습니다.<br><br>
+
+<center><img src="dialect.gif" width=400></center>
+<br><br>
+
+
+<b>문제1.</b> 사투리 문장을 토크나이즈할 수 있는 형태소 분석기의 부재<br>
+
+사실상 사투리를 위한 형태소 분석기를 만들어야 하는 문제였습니다.
+다행히도 표준어는 이미 고품질의 형태소 분석이 가능한 툴들이 많았습니다.
+그리고 사투리는 첫째로 표준어와 어순이 달라지지 않으며, 둘째로 표준어와 소리가 비슷한 경우가 많습니다.
+그래서 음운의 유사성을 활용해 표준어의 특정 토큰이 사투리 문장에서 어느 구간에 대응되는지를 히든 마르코프 모델로 학습시키자는 아이디어를 떠올렸습니다.<br><br>
+
+
+<b>문제2.</b> 가까스로 모았지만 2.7만 문장 쌍이라는 턱없이 부족한 데이터<br>
+
+표준어 해석이 달린 사투리 데이터를 찾는 것이 매우 어려웠습니다.
+번역기의 경우 약 천만 문장 정도가 있어야 효과가 생기기에 신경망 모델을 포기하기로 결정했습니다.
+대신 히든마르코프나 조건부확률장 등 고전적 자연어처리에 활용되는 그래프 모델을 공부하였습니다.
+최종적으로 히든마르코프 모델을 선택한 이유는 구현과 추론 모두 빠르기 때문이었습니다.
+직접 데이터들의 학습상황을 추적할 수 있어 독자적인 규칙으로 학습 보상체계를 설정할 수 있었습니다.<br><br>
+
+
+<b>문제3.</b> 상태의 수가 너무 많아 느려지는 추론 과정<br>
+이 모델을 사투리 번역기에 적용할 경우 가장 큰 단점은 비터비 알고리즘을 수행할 때 탐색해야 할 상태의 개수가 너무 많다는 것입니다.
+제가 설계한 모델 상에서 상태들을 thining할 때 문장의 길이가 길어지면 가능한 후보의 수가 폭발적으로 증가하므로, 어느 정도 경로에 의미적 완결이 일어났다고 판단되면 문장을 자르고 다시 시작함으로써 토큰의 범위를 줄이고자 하였습니다.
+이때 언제 끊을 것인가를 결정하기 위해 유한상태기계의 아이디어를 차용하였습니다.<br><br>
+
+
+<b>문제4.</b> 시장성이 없는 속도와 퀄리티<br>
+이 문제는 결국 해결하지 못하여 대표님께 다른 과제를 받게 되었습니다.
+아무리 빠르게 돌아가는 모델을 만들려고 해도 짧은 문장마저 번역하는 데에 1분을 넘어가버리는 경우가 많았습니다.
+번역의 퀄리티도 좋지 못했습니다.
+챗봇이 번역기가 아니라는 것을 너무 늦게 알아차렸던 것을 반성하였습니다.
+최초의 목표였던 챗봇의 사투리대응을 번역기 구현 없이 더 현명하고 쉽게 해결할 수 있는 방법이 있었을 것이라고 생각합니다.<br>
+
+
+
+
+
+
+
+
+
+
+
+<br><center><b>감정분석기</b></center><br>
+
+PyTorch를 활용하여 <a href="https://arxiv.org/abs/1409.0473">Badhanau attention</a>을 적용한 seq2seq 모델로 구현하였습니다.
+아직 tensorflow와 PyTorch에 해당 논문 구현이 완벽히 업데이트되지 않은 때여서 직접 논문을 읽고 구현하였습니다. 네이버 영화평을 학습데이터로 하여 간단한 감정분석기를 만들었습니다.<br><br>
+
+<center><img src="sentiment.gif" width=400></center>
+<br><br>
+
+<b>문제1.</b> 시간이 없다, 감정분석기를 무엇으로 만들 것인가?<br>
+
+약 한 달 전부터 확률 그래프 모델에 한계를 느끼면서 신경망 사용을 염두에 두며 어텐션을 적용한 seq2seq 모델을 공부하던 중이었습니다.
+제가 실질적으로 가장 빠르게 구현할 수 있는 신경망 모델이 seq2seq라 생각하여 우선 구현하였고, 혹시나 하는 마음에 디코더가 출력하는 토큰 배열의 길이를 1로 두어 번역기를 돌리듯 감정분석을 시키니 생각보다 좋은 결과가 나와 바로 보고하였습니다.
+이 감정분석기로 스타트업 투자자분께 시연을 보여드리는 쾌거도 이루었습니다.
+
+<br><br><center>
+<img src="./images/im_rnn.jpg" width=250>
+<img src="./images/im_seq.jpg" width=250>
+</center><br><br>
+
+<b>문제2.</b> 인턴십 마무리하기: 문서화<br>
+
+스핑크스를 활용하기로 하였습니다.
+구현한 내용들을 클래스로 묶어 모듈화하고 학습과정에서 계산되는 텐서들의 모양에 대해 일일이 주석을 표시하였습니다.
+아쉽게도 시간이 부족하여 모든 코드를 문서화하지는 못했습니다.
+seq2seq 모델의 코드 및 주석은 <a href="https://github.com/ikhanchoi/simulations/blob/master/ml/sentiment/seq2seq.py"><b>이곳</b></a>에서 확인하실 수 있습니다.
+
+<br><br>
+<h3>2. OpenGL 경험</h3>
+
+졸업 이후 약 두 달 간 LearnOpenGL을 토대로 스터디한 노트 중 일부입니다.<br>
+물리 시뮬레이션에 기반한 시각적 효과들과 배경의 절차적 생성에 관심이 있어 향후 이 방향으로 공부하고자 합니다.<br>
+작게나마 프로젝트를 완성하여 보여드리고 싶었으나 그러지 못해 아쉽습니다.<br><br>
+
+<a href="./22 10 01 (토) 이칸 노트 424f06f85651472bb5b165169a57ee18.html">22.10.01 노트</a><br>
+<a href="22 10 09 (일) 이칸 노트 93e10c52d5ef491a9d41109a2d0dfa7c.html">22.10.09 노트</a><br>
+<a href="22 10 17 (월) 이칸 노트 3765f37df9bb4643bcd43edbb7e14abf.html">22.10.17 노트</a><br>
+
+
+
+
+<br><br>
+<h3>3. 미술 경험</h3>
+
+전문적으로 배울 기회는 없었지만 학창시절 미술에 많은 관심이 있었습니다.<br>
+고등학교에서는 디자인 동아리 회장으로 최우수 동아리 활동상을 받을 만큼 애착이 있었습니다.<br>
+제가 그린 그림들을 <a href="./images"><b>이곳</b></a>에서 확인하실 수 있습니다.<br><br>
+
+
+
+감사합니다 :)
+
+
+
+<br><br><br><br>
+
+</span>
