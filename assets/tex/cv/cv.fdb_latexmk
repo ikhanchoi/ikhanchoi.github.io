@@ -1,9 +1,9 @@
 # Fdb version 3
-["lualatex"] 1661227245 "cv.tex" "cv.pdf" "cv" 1661227246
+["lualatex"] 1663035118 "cv.tex" "cv.pdf" "cv" 1663035119
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/fontawesome.luc" 1658674678 57548 7158902bba1464da5d7e7e337489f1a1 ""
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1658674774 124231 5fc30e2e906accf84b5f661a29049cdb ""
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1651860250 123160 fbe1a84f1f7fa0f7b674538f719d266f ""
-  "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1661161290 4527 5120eec9dd3eba5804b038cbf211247e ""
+  "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1662554243 6028 6f20c38f4aa88ac53c03efaa8c5aa34d ""
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1651860250 1572700 3fd5c962c143a85e0c1f70b1efc269a7 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf" 1465747999 132548 9f6ff7d7cfd6f76d7a9c242bdd48c144 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1254269338 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
@@ -142,9 +142,9 @@
   "/usr/local/texlive/2021/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1610835910 13788 c3df7754a82557bc3e50d0714ad8a67c ""
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1637295522 3313490 ff04316165a61869362bbfbb8398696c ""
-  "cv.aux" 1661227246 32 044b7f8fc9779af7531264e0c5c84b6d "lualatex"
-  "cv.tex" 1661227244 5924 daff4c1a9bf9a48128b0a9f60bd19831 ""
+  "cv.aux" 1663035119 32 044b7f8fc9779af7531264e0c5c84b6d "lualatex"
+  "cv.tex" 1663035118 5928 1fe0574388a9a67ec4fc975ad6854eb0 ""
   (generated)
+  "cv.log"
   "cv.aux"
   "cv.pdf"
-  "cv.log"

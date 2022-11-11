@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.19)  23 AUG 2022 13:00
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.19)  13 SEP 2022 11:11
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -622,21 +622,21 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 10.51207pt on input line 37.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 60.
+(Font)              scaled to size 10.51207pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 65.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 65.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 65.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 65.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 65.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 65.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 62.
+(Font)              scaled to size 10.51207pt on input line 65.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -648,7 +648,7 @@ Here is how much of LuaTeX's memory you used:
  517 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 14 kern, 1 glyph, 13 attribute, 52 glue_spe
 c, 13 attribute_list, 1 write nodes
-   avail lists: 2:502,3:284,4:70,5:161,6:40,7:5847,8:2,9:264,10:8,11:484
+   avail lists: 2:522,3:294,4:74,5:159,6:42,7:5833,8:2,9:272,10:8,11:492
  27969 multiletter control sequences out of 65536+600000
  158 fonts using 11626359 bytes
  96i,6n,98p,377b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -660,7 +660,7 @@ exlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on cv.pdf (2 pages, 56549 bytes).
+Output written on cv.pdf (2 pages, 56480 bytes).
 
 PDF statistics: 43 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
