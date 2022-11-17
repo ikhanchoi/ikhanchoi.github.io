@@ -1,0 +1,3 @@
+[submodule "assets/mathnotes"]
+	path = assets/mathnotes
+	url = https://github.com/ikhanchoi/mathnotes.git

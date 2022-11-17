@@ -1,40 +1,61 @@
 body {
   max-width: 600px;
   margin: 0 auto;
-  padding-top: 30px;
-  font-size: 10pt;
-  font-family: 'Lora', serif;
-  counter-reset: section;
-  line-height: 150%;
+  line-height: 160%;
 }
 
-h4 {
-  font-size: 12pt;
-  text-align: center;
-  counter-reset: subsection;
-}
-
-h4:before {
-  content: counter(section) ".\0000a0\0000a0";
-  counter-increment: section;
-}
-
-h5 {
-  font-size: 12pt;
-}
-
-h5:before {
-  content: counter(section) "." counter(subsection) ".\0000a0\0000a0";
-  counter-increment: subsection;
+header {
+  font-size: 18pt;
+  font-family: Lora;
+  padding: 40px 0px 20px;
 }
 
 nav {
-  padding: 0 5px;
+  font-size: 10pt;
+  font-family: Roboto;
+  letter-spacing : 0.2px;
+  padding: 0px 5px;
 }
 
-section, footer {
+section {
+  font-size: 10pt;
+  font-family: Lora;
+  letter-spacing : 0.2px;
   padding: 5px 12px;
 }
+
+article {
+  font-size: 10pt;
+  font-family: Roboto;
+  letter-spacing : 0.2px;
+  padding: 5px 12px;
+}
+
+article:lang(ko) {
+  font-family: Roboto, Noto Sans KR;
+}
+
+article:lang(jp) {
+  font-family: Roboto, Noto Sans JP;
+}
+
+footer {
+  font-size: 8pt;
+  font-family: Lora;
+  letter-spacing : 0.2px;
+  padding: 0px 12px;
+}
+
+
+ul {
+  padding-left: 20pt;
+}
+
+li {
+  list-style: square;
+  line-height: 160%;
+}
+
 
 
 a:link { color: darkgreen; text-decoration: none;}
