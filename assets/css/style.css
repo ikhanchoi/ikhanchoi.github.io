@@ -1,34 +1,36 @@
+
 body {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   line-height: 160%;
 }
 
 header {
-  font-size: 18pt;
+  font-size: 28px;
   font-family: Lora;
-  padding: 40px 0px 20px;
+  padding: 56px 0px 28px;
 }
 
 nav {
-  font-size: 10pt;
+  font-size: 14px;
   font-family: Roboto;
-  letter-spacing : 0.2px;
-  padding: 0px 5px;
+  letter-spacing : 0.3px;
+  padding: 8px 0px;
 }
 
 section {
-  font-size: 10pt;
+  font-size: 14px;
   font-family: Roboto;
-  letter-spacing : 0.2px;
-  padding: 4px 12px;
+  letter-spacing : 0.3px;
+  padding: 12px 28px;
 }
 
 article {
-  font-size: 10pt;
+  font-size: 14px;
   font-family: Roboto;
-  letter-spacing : 0.2px;
-  padding: 4px 12px;
+  letter-spacing : 0.3px;
+  padding: 12px 28px;
+  text-align: justify;
 }
 
 header:lang(ko),
@@ -46,28 +48,28 @@ article:lang(jp) {
 }
 
 footer {
-  font-size: 8pt;
+  font-size: 12px;
   font-family: Lora;
-  line-height: 130%;
+  line-height: 160%;
   letter-spacing : 0.2px;
-  padding: 4px 12px 24px;
+  padding: 12px 30px 32px;
 }
 
 
 ul {
-  padding: 0px 20px;
+  padding: 0px 28px;
 }
 
 li {
   list-style: square;
   line-height: 160%;
-  margin: 8px 0px;
+  margin: 10px 0px;
 }
 
 .right {
   float: right;
-  font-size: 9pt;
-  margin-right: 12px;
+  font-size: 12px;
+  margin-right: -28px;
 }
 
 
