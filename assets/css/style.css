@@ -6,31 +6,30 @@ body {
 }
 
 header {
-  font-size: 28px;
+  font-size: 30px;
   font-family: Lora;
-  padding: 56px 0px 28px;
+  padding: 40px 0px 20px;
 }
 
 nav {
-  font-size: 14px;
+  font-size: 16px;
   font-family: Roboto;
   letter-spacing : 0.3px;
   padding: 8px 0px;
 }
 
 section {
-  font-size: 14px;
+  font-size: 16px;
   font-family: Roboto;
   letter-spacing : 0.3px;
-  padding: 12px 28px;
+  padding: 12px 16px;
 }
 
 article {
-  font-size: 14px;
+  font-size: 16px;
   font-family: Roboto;
   letter-spacing : 0.3px;
-  padding: 12px 28px;
-  text-align: justify;
+  padding: 12px 16px;
 }
 
 header:lang(ko),
@@ -48,16 +47,16 @@ article:lang(jp) {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 14px;
   font-family: Lora;
   line-height: 160%;
   letter-spacing : 0.2px;
-  padding: 12px 30px 32px;
+  padding: 10px 16px 20px;
 }
 
 
 ul {
-  padding: 0px 28px;
+  padding: 0px 20px;
 }
 
 li {
@@ -68,8 +67,8 @@ li {
 
 .right {
   float: right;
-  font-size: 12px;
-  margin-right: -28px;
+  font-size: 14px;
+  margin-right: -24px;
 }
 
 
