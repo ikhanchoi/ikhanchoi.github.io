@@ -1,25 +1,29 @@
 # Ikhan Choi's Website
 
-## Home
+## English
+
+### Home
 - About
-	소개/이력/취미/연락
+	afilliation/hobby
 
 - News *
-	뉴스
-	개인 일정
+	my news/individual schedules
 
 - Seminars *
-	세미나 관련 안내, 일정
+	notice and schedules
 
-## CV
+- Contact
+
+### CV
 - Official cv
 	papers
 	talks
 	positions
 	books
 
-- Unofficial cv
+- Unofficial cv ?
 
+<!--
 ## Teaching *
 - Lab
 	학생 목록, 연구실 소개
@@ -27,12 +31,34 @@
 - Class
 	수업 자료
 	과거 수업 기록
+-->
 
-## Notes
-four notes
-lecture notes
-miscellany
+### Notes
+notes
 
-## Blog
-기타 기사
-한국어 기사
+
+## 한국어
+
+### 홈
+소개/일정/취미/연락
+
+### 블로그
+
+
+
+## 日本語
+
+### ホーム
+自己紹介、ニュース、スケジュール、連絡
+
+### 
+
+
+
+# 웹사이트 관리 관련
+
+터미널에서 웹사이트의 루트 디렉토리로 이동한 후 다음 명령어들을 실행하자.
+
+|---|---|
+|`jekyll s`|localhost:4000을 통해 변경사항을 local하게 테스트할 수 있다.|
+|`git submodule update --remote`|submodule로 포함시킨 다운로드 파일들을 업데이트할 수 있다.|

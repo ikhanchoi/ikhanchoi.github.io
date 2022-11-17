@@ -19,22 +19,28 @@ nav {
 
 section {
   font-size: 10pt;
-  font-family: Lora;
+  font-family: Roboto;
   letter-spacing : 0.2px;
-  padding: 5px 12px;
+  padding: 4px 12px;
 }
 
 article {
   font-size: 10pt;
   font-family: Roboto;
   letter-spacing : 0.2px;
-  padding: 5px 12px;
+  padding: 4px 12px;
 }
 
+header:lang(ko),
+nav:lang(ko),
+section:lang(ko),
 article:lang(ko) {
   font-family: Roboto, Noto Sans KR;
 }
 
+header:lang(jp),
+nav:lang(jp),
+section:lang(jp),
 article:lang(jp) {
   font-family: Roboto, Noto Sans JP;
 }
@@ -42,21 +48,29 @@ article:lang(jp) {
 footer {
   font-size: 8pt;
   font-family: Lora;
+  line-height: 130%;
   letter-spacing : 0.2px;
-  padding: 0px 12px;
+  padding: 4px 12px 24px;
 }
 
 
 ul {
-  padding-left: 20pt;
+  padding: 0px 20px;
 }
 
 li {
   list-style: square;
   line-height: 160%;
+  margin: 8px 0px;
+}
+
+.right {
+  float: right;
+  font-size: 9pt;
+  margin-right: 12px;
 }
 
 
 
-a:link { color: darkgreen; text-decoration: none;}
-a:visited { color: darkgreen; text-decoration: none;}
+a:link { color: green; text-decoration: none;}
+a:visited { color: green; text-decoration: none;}
