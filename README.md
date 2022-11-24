@@ -6,7 +6,7 @@
 - About
 	afilliation/hobby
 
-- News *
+- News
 	my news/individual schedules
 
 - Seminars *
@@ -26,15 +26,17 @@
 <!--
 ## Teaching *
 - Lab
-	학생 목록, 연구실 소개
+	people, researches
 
 - Class
-	수업 자료
-	과거 수업 기록
+	teaching materials
+	syllabus
 -->
 
 ### Notes
 notes
+
+
 
 
 ## 한국어
@@ -42,7 +44,12 @@ notes
 ### 홈
 소개/일정/취미/연락
 
+### CV
+
 ### 블로그
+
+
+
 
 
 
