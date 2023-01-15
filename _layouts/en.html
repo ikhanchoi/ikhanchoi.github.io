@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang='en'>
 <html>
-	<head>
-		<title>
-			{{ site.title }}
-		</title>
+<head>
+	<title>
+		{{ site.title }}
+	</title>
 
-		<!-- meta -->
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<!-- meta -->
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<!-- stylesheet -->
-		<link rel='stylesheet' href='/assets/css/fonts.css'>
-		<link rel='stylesheet' href='/assets/css/style.css'>
-		<link rel='stylesheet' href='/assets/css/syntax.css'>
-		<link rel='stylesheet' href='/assets/css/katex.css'>
+	<!-- stylesheet -->
+	<link rel='stylesheet' href='/assets/css/fonts.css'>
+	<link rel='stylesheet' href='/assets/css/style.css'>
+	<link rel='stylesheet' href='/assets/css/syntax.css'>
+	<link rel='stylesheet' href='/assets/css/katex.css'>
 
-		<!-- math setting -->
-		{% include katex.html %}
+	<!-- math setting -->
+	{% include katex.html %}
 
-		<!-- favicon -->
-		<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
 
-	</head>
+</head>
 
 
-	<body>
+<body>
 
-		<header>
-<!--			
-			<div style='text-align: right; font-family: Roboto; font-size: 8pt;'>
-				<a href='/'>EN</a> | 
-				<a href='/index-ko.html'>KO</a> | 
-				<a href='/index-jp.html'>JP</a>&emsp;&emsp;&emsp;
-			</div>
--->
-			<div style='text-align: center;'>
-				Ikhan Choi
-			</div>
-		</header>
+	<header>
+	<!--
+		<div style='text-align: right; font-family: Roboto; font-size: 8pt;'>
+			<a href='/'>EN</a> | 
+			<a href='/index-ko.html'>KO</a> | 
+			<a href='/index-jp.html'>JP</a>&emsp;&emsp;&emsp;
+		</div>
+	-->
+		<div style='text-align: center;'>
+			Ikhan Choi
+		</div>
+	</header>
 
-		<nav>
-			<div style='text-align: center;'>
-				<a href='/'>Home</a>
-				<span>&emsp;&emsp;&emsp;</span>
-				<a href='/pages/cv'>CV</a>
-				<span>&emsp;&emsp;&emsp;</span>
-				<a href='/pages/notes'>Notes</a>
-				<span>&emsp;&emsp;&emsp;</span>
-				<a href='/pages/blog'>Blog</a>
-			</div>
-		</nav>
+	<nav>
+		<div style='text-align: center;'>
+			<a href='/'>Home</a>
+			<span>&emsp;&emsp;&emsp;</span>
+			<a href='/pages/cv'>CV</a>
+			<span>&emsp;&emsp;&emsp;</span>
+			<a href='/pages/notes'>Notes</a>
+			<span>&emsp;&emsp;&emsp;</span>
+			<a href='/pages/blog'>Blog</a>
+		</div>
+	</nav>
 
-		<hr>
+	<hr>
 
-		{{ content }}
+	{{ content }}
 
-		<hr>
+	<hr>
 
-		<footer>
-			&copy; 2019-<script>document.write(new Date().getFullYear())</script>. Ikhan Choi. All rights reserved.<br>
-			Powered by <a href="https://jekyllrb.com/">Jekyll</a>
-		</footer>
+	<footer>
+		&copy; 2019-<script>document.write(new Date().getFullYear())</script>. Ikhan Choi. All rights reserved.<br>
+		Powered by <a href="https://jekyllrb.com/">Jekyll</a>.
+	</footer>
 
-	</body>
+</body>
 
 </html>

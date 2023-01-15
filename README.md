@@ -1,20 +1,20 @@
 # Ikhan Choi's Website
 
-## English
 
-### Home
+## Home
 - About
 	afilliation/hobby
 
-- News
-	my news/individual schedules
+- News *
+
+- Schedules *
 
 - Seminars *
 	notice and schedules
 
 - Contact
 
-### CV
+## CV
 - Official cv
 	papers
 	talks
@@ -33,32 +33,12 @@
 	syllabus
 -->
 
-### Notes
+## Notes
 notes
 
 
 
 
-## 한국어
-
-### 홈
-소개/일정/취미/연락
-
-### CV
-
-### 블로그
-
-
-
-
-
-
-## 日本語
-
-### ホーム
-自己紹介、ニュース、スケジュール、連絡
-
-### 
 
 
 
