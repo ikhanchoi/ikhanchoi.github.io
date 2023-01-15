@@ -37,20 +37,6 @@ h2,h3 {
   padding: 18px 0px 0px;
 }
 
-header:lang(ko),
-nav:lang(ko),
-section:lang(ko),
-article:lang(ko) {
-  font-family: Roboto, Noto Sans KR;
-}
-
-header:lang(jp),
-nav:lang(jp),
-section:lang(jp),
-article:lang(jp) {
-  font-family: Roboto, Noto Sans JP;
-}
-
 footer {
   font-size: 14px;
   font-family: Lora;
