@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Hydrogen atom}{3}{0}{1}
-\beamer@sectionintoc {2}{Spectral theory on Hilbert spaces}{14}{0}{2}
-\beamer@sectionintoc {3}{Gelfand theory}{26}{0}{3}
-\beamer@sectionintoc {4}{Algebraic geometry}{34}{0}{4}
