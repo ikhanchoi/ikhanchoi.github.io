@@ -48,6 +48,10 @@ li {
   margin: 10px 0px;
 }
 
+td {
+  vertical-align: top;
+}
+
 .right {
   float: right;
   font-size: 14px;
