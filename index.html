@@ -1,20 +1,18 @@
 ---
-layout: en
+layout: default
 ---
-
-<section>
 
 <script type="text/javascript">
   var imageURLs = [
-       "/assets/img/220107.jpg",
-       //"/assets/img/220516.jpeg"
+	   "/assets/img/220107.jpg",
+	   //"/assets/img/220516.jpeg"
   ];
   function getImageTag() {
-    var img = '<img src=\"';
-    var randomIndex = Math.floor(Math.random() * imageURLs.length);
-    img += imageURLs[randomIndex];
-    img += '\" align=\"right\" style=\"width: 120px;\"/>';
-    return img;
+	var img = '<img src=\"';
+	var randomIndex = Math.floor(Math.random() * imageURLs.length);
+	img += imageURLs[randomIndex];
+	img += '\" align=\"right\" style=\"height: 120px;\"/>';
+	return img;
   }
   document.write(getImageTag());
 </script>
@@ -28,27 +26,18 @@ layout: en
 <p>
 	I am from Korea and a first-year graduate student at the University of Tokyo under the advice of <a href='https://www.ms.u-tokyo.ac.jp/~yasuyuki/index-e.html'>Yasuyuki Kawahigashi</a>.
 	I am grateful to have been selected as a recipient of the Japanese government (MEXT) scholarship.
+	The official CV file can be found <a href='/assets/pdf/cv/cv.pdf'>here</a>.
 </p>
 <p>
 	My research interests primarily lie in operator algebras and abstract harmonic analysis, and their applications to other areas of mathematics such as representation theory, differential geometry, and mathematical physics.
 </p>
 <p>
-  The official CV file can be found <a href='/assets/tex/cv/cv.pdf'>here</a>.
-</p>
-<p>
   I am an amateur saxophonist, and also interested in computer graphics and physics simulations.
 </p>
 
-<!--
-<h2>News</h2>
-
-<h2>Schedule</h2>
--->
 
 <h2>Contact</h2>
-
 <p>
-	Email: dlrgks623 [at] gmail [dot] com
+	Email: dlrgks623 [at] gmail [dot] com<br>
+	Room 318, Mathematical Science Building, 3-8-1 Komaba, Tokyo
 </p>
-
-</section>

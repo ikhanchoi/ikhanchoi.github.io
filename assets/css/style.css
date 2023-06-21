@@ -1,48 +1,41 @@
 
 body {
-  max-width: 700px;
+  max-width: 640px;
   margin: 0 auto;
   line-height: 160%;
 }
 
 header {
-  font-size: 30px;
+  font-size: 32px;
   font-family: Lora;
   padding: 40px 0px 20px;
 }
 
 nav {
-  font-size: 16px;
+  font-size: 14px;
   font-family: Roboto;
   letter-spacing : 0.3px;
   padding: 8px 0px;
 }
 
-section {
-  font-size: 16px;
-  font-family: Lora;
+section, article {
+  font-size: 14px;
+  font-family: Slash, Lora, Noto Sans KR;
   letter-spacing : 0.3px;
-  padding: 12px 16px;
-}
-
-article {
-  font-size: 16px;
-  font-family: Lora;
-  letter-spacing : 0.3px;
-  padding: 12px 16px;
+  padding: 8px 16px;
 }
 
 h2,h3 {
   font-family: Roboto;
-  padding: 18px 0px 0px;
+  padding: 0px 0px 0px;
 }
 
 footer {
-  font-size: 14px;
+  font-size: 10px;
   font-family: Lora;
   line-height: 160%;
   letter-spacing : 0.2px;
-  padding: 10px 16px 20px;
+  padding: 8px 16px;
 }
 
 ul {
