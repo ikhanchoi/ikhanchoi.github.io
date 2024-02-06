@@ -5,7 +5,7 @@ layout: default
 # Schedule
 
 ## 2023 Autumn
-- [M1 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2023a.htm)
+- [M1 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2023a.htm)<br>
 	Wed 10:15 ~ 12:00,
 	Fri 15:30 ~ 17:15,
 	Room 308<br>
@@ -18,7 +18,7 @@ layout: default
 
 
 ## 2023 Spring
-- [M1 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2023s.htm)
+- [M1 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2023s.htm)<br>
 	Mon 15:30 ~ 17:15,
 	Fri 10:15 ~ 12:00,
 	Room 308<br>
