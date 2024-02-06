@@ -21,13 +21,25 @@ nav {
 section, article {
   font-size: 14px;
   font-family: Slash, Lora, Noto Sans KR;
-  letter-spacing : 0.3px;
   padding: 8px 16px;
+  text-align: justify;
 }
 
-h2,h3 {
+h1,h2,h3 {
   font-family: Roboto;
-  padding: 0px 0px 0px;
+  padding: 8px 0px 0px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 footer {
@@ -50,12 +62,23 @@ li {
 
 td {
   vertical-align: top;
+  min-width: 80px;
+  border: none!important;
+}
+
+th {
+  border: none!important;
 }
 
 .right {
   float: right;
   font-size: 14px;
   margin-right: -24px;
+}
+
+hr {
+  width: 30%;
+  margin: 24px auto 24px;
 }
 
 
