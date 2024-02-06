@@ -6,7 +6,7 @@
   font-family: 'Lora';
   font-style: normal;
   font-weight: 400;
-  src: local(''),
+  src:
 	   url('/assets/fonts/lora-v26-latin-regular.woff2') format('woff2'), 
 	   url('/assets/fonts/lora-v26-latin-regular.woff') format('woff'); 
 }
@@ -64,7 +64,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: 400;
-	src: local(''),
+	src:
 		url('/assets/fonts/noto-sans-kr-v27-latin_korean-regular.woff2') format('woff2'),
 		url('/assets/fonts/noto-sans-kr-v27-latin_korean-regular.woff') format('woff');
 }
