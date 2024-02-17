@@ -16,4 +16,4 @@ layout: default
 
 ## 공부잡담글
 
-- [[번역] 세미나를 준비하는 방법에 대하여](/pages/blog/articles/240206.html)
+- [[번역] 세미나를 준비하는 방법에 대하여](/pages/blog/articles/240206.html) (2/7/2024)

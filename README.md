@@ -3,40 +3,36 @@
 
 ## Home
 - About
-	afilliation/hobby
+	afilliation
+	hobby
+	positions
 
 - News *
 
 - Schedules *
-
-- Seminars *
-	notice and schedules
+	travels
+	seminars
 
 - Contact
 
-## CV
-- Official cv
-	papers
-	talks
-	positions
+## Archive
+- Papers
+	files, comments
 	books
+- Talks
+- Teaching
+- Notes
+	course, seminar
 
-- Unofficial cv ?
-
-<!--
-## Teaching *
-- Lab
-	people, researches
-
-- Class
-	teaching materials
-	syllabus
--->
-
-## Notes
-notes
+- Unofficial CV
 
 
+
+
+## Articles
+- 연구소개글
+- 진로정보글
+- 공부잡담글
 
 
 
@@ -44,8 +40,5 @@ notes
 
 # 웹사이트 관리 관련
 
-터미널에서 웹사이트의 루트 디렉토리로 이동한 후 다음 명령어들을 실행하자.
 
-|---|---|
-|`jekyll s`|localhost:4000을 통해 변경사항을 local하게 테스트할 수 있다.|
-|`git submodule update --remote`|submodule로 포함시킨 다운로드 파일들을 업데이트할 수 있다.|
+blog를 article로, blog 안의 article을 japdam으로 바꾸고 싶다
