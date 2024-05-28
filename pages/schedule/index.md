@@ -4,6 +4,23 @@ layout: default
 
 # Schedule
 
+
+## 2024 Spring
+- [M2 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2024s.htm)<br>
+	Mon 10:15 ~ 12:00,
+	Wed 10:15 ~ 12:00,
+	Room 308<br>
+	4/10\*, 5/1, 5/8, 5/13\*, 5/15, 5/22, 6/5\*, 6/10, 6/12, 6/17\*, 6/19, 6/24, 7/10<br>
+	\* My presentation
+- Operator algebra seminars<br>
+	Tue 16:45 ~ 18:15,
+	Room 126
+
+| 6/25 ~ 7/9 | __Seoul__, Semigroups, groupoids and C*-algebras |
+| 9/17 ~ 9/20 | __Sapporo__, Functional Analysis Conference (Junior) |
+
+
+
 ## 2023 Autumn
 - [M1 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2023a.htm)<br>
 	Wed 10:15 ~ 12:00,

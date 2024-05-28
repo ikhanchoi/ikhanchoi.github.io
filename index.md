@@ -26,6 +26,7 @@ I am from Korea and a graduate student at the University of Tokyo under the advi
 I am grateful to have been selected as a recipient of the Japanese government (MEXT) scholarship.
 
 My research interests primarily lie in operator algebras and abstract harmonic analysis, and their applications to other areas of mathematics such as representation theory, differential geometry, and mathematical physics.
+Recently, I have been particularly interested in analytic features of Kasparov theory and some generalizations from the viewpoint of algebraic topology.
 
 I am an amateur saxophonist, and also interested in computer graphics and physics simulations.
 
