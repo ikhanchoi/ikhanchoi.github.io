@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1673779609 "cv.tex" "cv.pdf" "cv" 1673779611
+["lualatex"] 1718348295 "cv.tex" "cv.pdf" "cv" 1718348295
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/fontawesome.luc" 1658674678 57548 7158902bba1464da5d7e7e337489f1a1 ""
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1658674774 124231 5fc30e2e906accf84b5f661a29049cdb ""
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1651860250 123160 fbe1a84f1f7fa0f7b674538f719d266f ""
@@ -142,9 +142,9 @@
   "/usr/local/texlive/2021/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1610835910 13788 c3df7754a82557bc3e50d0714ad8a67c ""
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1637295522 3313490 ff04316165a61869362bbfbb8398696c ""
-  "cv.aux" 1673779611 32 044b7f8fc9779af7531264e0c5c84b6d "lualatex"
-  "cv.tex" 1673779608 5931 a1d43a9b3120b1a1c1f33f3f62d2733f ""
+  "cv.aux" 1718348295 32 044b7f8fc9779af7531264e0c5c84b6d "lualatex"
+  "cv.tex" 1718348294 6034 d4e611db57794fc79e315504ed530bce ""
   (generated)
-  "cv.aux"
   "cv.pdf"
   "cv.log"
+  "cv.aux"

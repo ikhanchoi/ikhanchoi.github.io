@@ -4,6 +4,10 @@ layout: default
 
 # Schedule
 
+## 2024 Autumn
+- TA: Geometry II
+
+
 
 ## 2024 Spring
 - [M2 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2024s.htm)<br>
@@ -31,7 +35,10 @@ layout: default
 - Operator algebra seminars<br>
 	Tue 16:45 ~ 18:15,
 	Room 126
-
+- TA: Complex Analysis I<br>
+	Tue 14:55 ~ 16:40,
+	Room 721,
+	[Problems and solutions](/assets/pdf/teaching/23A.pdf)
 
 
 ## 2023 Spring

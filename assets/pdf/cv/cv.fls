@@ -1,4 +1,4 @@
-PWD /Users/ikhanchoi/Library/CloudStorage/Dropbox/Git/ikhanchoi.github.io/assets/tex/cv
+PWD /Users/ikhanchoi/Library/CloudStorage/Dropbox/Git/ikhanchoi.github.io/assets/pdf/cv
 INPUT /usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./cv.tex
 OUTPUT cv.log
