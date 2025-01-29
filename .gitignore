@@ -1,4 +1,4 @@
 _site/
 .jekyll-cache/
 .DS_Store
-.draft
+*_draft.md
