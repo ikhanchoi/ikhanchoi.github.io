@@ -23,10 +23,10 @@ Hi, my name is Ikhan Choi (최익한).
 My surname is pronounced officially as "Chwe (チェ)", but I prefer to be called "Choy (チョイ)".
 
 I am from Korea and a graduate student at the University of Tokyo under the advice of [Yasuyuki Kawahigashi](https://www.ms.u-tokyo.ac.jp/~yasuyuki/index-e.html).
-I am grateful to have been selected as a recipient of the Japanese government (MEXT) scholarship.
+I am grateful to have been selected as a recipient of the Japanese Government (MEXT) scholarship and honored with the Dean's Award from the University of Tokyo for my master's program.
 
 My research interests primarily lie in operator algebras and abstract harmonic analysis, and their applications to other areas of mathematics such as representation theory, differential geometry, and mathematical physics.
-Recently, I have been particularly interested in analytic features of Kasparov theory and some generalizations from the viewpoint of algebraic topology.
+Recently, I have been particularly interested in functional analytic features of bivariant K-theory and some generalizations from the viewpoint of algebraic topology.
 
 I am an amateur saxophonist, and also interested in computer graphics and physics simulations.
 
