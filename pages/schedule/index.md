@@ -4,6 +4,11 @@ layout: default
 
 # Schedule
 
+## 2025 Spring
+
+| 6/6 - 6/7 | __Kyoto__, Kyoto Operator Aalgebra Seminar |
+| 7/6 - 7/12 | __Seoul__, China-Japan-Korea Conference on Functional Analysis |
+
 ## 2024 Autumn
 - TA: Geometry II
 
