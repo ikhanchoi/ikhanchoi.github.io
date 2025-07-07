@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.19)  14 JUN 2024 15:58
- restricted system commands enabled.
-**cv.tex
-(./cv.tex
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.19)  27 JUN 2025 11:44
+ system commands enabled.
+**cv_acad.tex
+(./cv_acad.tex
 LaTeX2e <2020-10-01> patch level 4
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
 Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
@@ -399,8 +399,9 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box49
 \enit@count@id=\count199
 \enitdp@description=\count266
-) (./cv.aux)
-\openout1 = cv.aux
+)
+(./cv_acad.aux)
+\openout1 = cv_acad.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -413,7 +414,7 @@ LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 0.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 30.
@@ -622,36 +623,41 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 10.51207pt on input line 37.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 65.
+(Font)              scaled to size 10.51207pt on input line 69.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 67.
+(Font)              scaled to size 10.51207pt on input line 76.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 67.
+(Font)              scaled to size 10.51207pt on input line 76.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 67.
+(Font)              scaled to size 10.51207pt on input line 76.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 67.
+(Font)              scaled to size 10.51207pt on input line 76.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 67.
+(Font)              scaled to size 10.51207pt on input line 76.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 67.
+(Font)              scaled to size 10.51207pt on input line 76.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 67.
+(Font)              scaled to size 10.51207pt on input line 76.
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+ []
+
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./cv.aux))
+[2] (./cv_acad.aux))
 
 Here is how much of LuaTeX's memory you used:
  8458 strings out of 478531
  100000,552014 words of node,token memory allocated
- 517 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 14 kern, 1 glyph, 13 attribute, 52 glue_spe
-c, 13 attribute_list, 1 write nodes
-   avail lists: 2:493,3:271,4:70,5:148,6:41,7:5537,8:2,9:254,10:8,11:474
+ 540 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 17 kern, 1 glyph, 15 attribute, 52 glue_spe
+c, 15 attribute_list, 1 write nodes
+   avail lists: 2:529,3:290,4:80,5:148,6:46,7:5850,8:2,9:272,10:8,11:494
  27969 multiletter control sequences out of 65536+600000
  158 fonts using 11626359 bytes
- 96i,6n,98p,377b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,6n,98p,382b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/local
 /texlive/2021/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf></usr
 /local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/loc
@@ -660,7 +666,7 @@ exlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chrma.pfb>
-Output written on cv.pdf (2 pages, 56526 bytes).
+Output written on cv_acad.pdf (2 pages, 56142 bytes).
 
 PDF statistics: 43 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
