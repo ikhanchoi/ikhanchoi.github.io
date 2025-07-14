@@ -6,8 +6,10 @@ layout: default
 
 ## 2025 Spring
 
-| 6/6 - 6/7 | __Kyoto__, Kyoto Operator Aalgebra Seminar |
-| 7/6 - 7/12 | __Seoul__, China-Japan-Korea Conference on Functional Analysis |
+| 6/6 | __Kyoto__, [Kyoto Operator Aalgebra Seminar](https://www.kurims.kyoto-u.ac.jp/~narutaka/koas.html) |
+| 7/7 - 7/11 | __Seoul__, [China-Japan-Korea Conference on Functional Analysis](http://conference.math.snu.ac.kr/CJK_Conference_2025/Home.html) |
+| 7/14 | __Seoul__, [KIAS Seminars](https://www.kias.re.kr/kias/activities/seminars/list.do?menuNo=404003) |
+| 9/5 - 9/9 | __Matsuyama__, Functional Analysis Conference (Junior) |
 
 ## 2024 Autumn
 - TA: Geometry II
@@ -21,7 +23,7 @@ layout: default
 	4/10\*, 5/1, 5/8, 5/13\*, 5/15, 5/22, 6/5\*, 6/10, 6/12, 6/17\*, 6/19, 6/24, 7/10<br>
 	\* My presentation
 
-| 6/25 - 7/9 | __Seoul__, Semigroups, groupoids and C*-algebras |
+| 7/1 - 7/5 | __Seoul__, [Semigroups, groupoids and C*-algebras](https://sites.google.com/view/semigroups-groupoids-and-c-alg/home) |
 | 9/17 - 9/20 | __Sapporo__, Functional Analysis Conference (Junior) |
 
 
@@ -49,9 +51,9 @@ layout: default
 
 
 | 4/4 | Arrival in Tokyo |
-| 7/2 - 7/5 | __Kyoto__, Noncommutative Geometry, Index Theory and Representation Theory |
+| 7/2 - 7/5 | __Kyoto__, [Noncommutative Geometry, Index Theory and Representation Theory](https://indico.math.cnrs.fr/event/8330/) |
 | 7/6 - 7/13 | __Chiba__, International Mathematical Olympiad (Team Guide) |
-| 8/7 - 8/12 | __Leuven__, YMC*A |
+| 8/7 - 8/12 | __Leuven__, [YMC*A](https://wis.kuleuven.be/events/YMCstarA) |
 | 9/5 - 9/8 | __Kyoto__, Functional Analysis Conference (Junior) |
 
 \* I will always be in Tokyo, except for the schedules written in bold.
