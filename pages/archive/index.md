@@ -28,20 +28,23 @@ layout: default
 
 ## Talks
 
-- A solution to Haagerup's problem on normal weights
+### 2025
+<details><summary>A solution to Haagerup's problem on normal weights</summary><div markdown="1">
 
-| 5/13 | __Tokyo__, Operator Algebra Seminars at the University of Tokyo |
-| 6/6 | __Kyoto__, Kyoto Operator Algebra Seminars |
-| 7/8 | __Seoul__, China-Japan-Korea Conference on Functional Analysis |
-| 7/14 | __Seoul__, KIAS Seminars |
-| 9/24 | __Kyoto__, Operator Algebraists' Symposium, Recent Developments in Operator Algebras |
+| 5/13  | **Tokyo**, Operator Algebra Seminars at the University of Tokyo |
+| 6/6   | **Kyoto**, Kyoto Operator Algebra Seminars |
+| 7/8   | **Seoul**, China-Japan-Korea Conference on Functional Analysis |
+| 7/14 | **Seoul**, KIAS Seminars |
+| 9/24 | **Kyoto**, Operator Algebraists' Symposium, Recent Developments in Operator Algebras |
 
+</div></details>
 
-- Unbounded bivariant K-theory,
+### 2024
+<details><summary>Unbounded bivariant K-theory</summary><div markdown="1">
 
 | 9/18 | __Sapporo__, Functional Analysis Conference (Junior) |
 
-
+</div></details>
 
 
 ## Notes
