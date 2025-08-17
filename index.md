@@ -6,10 +6,10 @@ layout: default
   var imageList = [
 	  { url: "/assets/img/220107.jpg", scale: 1 },
 	  { url: "/assets/img/250708.jpg", scale: 1 },
-	  { url: "/assets/img/250813.jpeg", scale: 1 },
+	  { url: "/assets/img/250813.jpeg", scale: 1.2 },
   ];
-	var fixedWidth = 150;
-  var fixedHeight = 200;
+	var fixedWidth = 120;
+  var fixedHeight = 160;
 
   function getImageTag() {
     var randomIndex = Math.floor(Math.random() * imageList.length);
@@ -18,6 +18,7 @@ layout: default
     var containerStyle =
       "width:" + fixedWidth + "px;" +
       "height:" + fixedHeight + "px;" +
+      "margin:20px 4px 4px 4px;" +
       "overflow:hidden;" +
       "position:relative;" +
     	"float:right;" +
