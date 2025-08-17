@@ -10,6 +10,10 @@ layout: default
 | 7/7 - 7/11 | __Seoul__, [China-Japan-Korea Conference on Functional Analysis](http://conference.math.snu.ac.kr/CJK_Conference_2025/Home.html) |
 | 7/14 | __Seoul__, [KIAS Seminars](https://www.kias.re.kr/kias/activities/seminars/list.do?menuNo=404003) |
 | 9/5 - 9/9 | __Matsuyama__, Functional Analysis Conference (Junior) |
+| 9/24 - 9/26 | __Kyoto__, [Operator Algebraists' Symposium, Recent Developments in Operator Algebras](https://www.kurims.kyoto-u.ac.jp/~narutaka/2025sep.html) |
+
+
+
 
 ## 2024 Autumn
 - TA: Geometry II

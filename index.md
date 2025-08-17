@@ -3,16 +3,38 @@ layout: default
 ---
 
 <script type="text/javascript">
-  var imageURLs = [
-	   "/assets/img/220107.jpg",
-	   //"/assets/img/220516.jpeg"
+  var imageList = [
+	  { url: "/assets/img/220107.jpg", scale: 1 },
+	  { url: "/assets/img/250708.jpg", scale: 1 },
+	  { url: "/assets/img/250813.jpeg", scale: 1 },
   ];
+	var fixedWidth = 150;
+  var fixedHeight = 200;
+
   function getImageTag() {
-	var img = '<img src=\"';
-	var randomIndex = Math.floor(Math.random() * imageURLs.length);
-	img += imageURLs[randomIndex];
-	img += '\" align=\"right\" style=\"height: 120px;\"/>';
-	return img;
+    var randomIndex = Math.floor(Math.random() * imageList.length);
+    var imgData = imageList[randomIndex];
+
+    var containerStyle =
+      "width:" + fixedWidth + "px;" +
+      "height:" + fixedHeight + "px;" +
+      "overflow:hidden;" +
+      "position:relative;" +
+    	"float:right;" +
+      "border-radius:8px;";
+
+    var imgStyle = 
+      "width:100%; height:100%;" +
+      "object-fit:cover;" +
+      "position:absolute; top:50%; left:50%;" +
+      "transform:translate(-50%,-50%) scale(" + imgData.scale + ");";
+
+    var html = 
+      '<div style="' + containerStyle + '">' +
+      '<img src="' + imgData.url + '" style="' + imgStyle + '"/>' +
+      '</div>';
+
+    return html;
   }
   document.write(getImageTag());
 </script>

@@ -28,12 +28,18 @@ layout: default
 
 ## Talks
 
-### 2024
-- 
-	9/17 - 9/20,
-	Unbounded bivariant K-theory,
-	Functional Analysis Conference (Junior),
-	Sapporo
+- A solution to Haagerup's problem on normal weights
+
+| 5/13 | __Tokyo__, Operator Algebra Seminars at the University of Tokyo |
+| 6/6 | __Kyoto__, Kyoto Operator Algebra Seminars |
+| 7/8 | __Seoul__, China-Japan-Korea Conference on Functional Analysis |
+| 7/14 | __Seoul__, KIAS Seminars |
+| 9/24 | __Kyoto__, Operator Algebraists' Symposium, Recent Developments in Operator Algebras |
+
+
+- Unbounded bivariant K-theory,
+
+| 9/18 | __Sapporo__, Functional Analysis Conference (Junior) |
 
 
 
