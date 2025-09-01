@@ -43,11 +43,11 @@
 	<header>
 		<div style="
 			text-align: center;
-			font-size: 32px;
+			font-size: 24px;
 			font-family: Lora;
 			padding: 40px 0px 20px;
 		">
-			Ikhan Choi
+			Wiki
 		</div>
 	</header>
 
@@ -77,7 +77,41 @@
 			letter-spacing : 0.3px;
 			padding: 8px 16px;
 		">
-			{{ content }}
+
+
+{% assign content = content
+	| replace: '\', '\\'
+	| replace: '*', '&#42;'
+%}
+
+{% assign result = '' %}
+{% assign parts = content | split: '\emph{' %}
+{% for part in parts %}
+	{% if forloop.first %}
+		{% assign result = result | append: part %}
+	{% else %}
+		{% assign subparts = part | split: '}' %}
+		{% for subpart in subparts %}
+			{% assign result = result | append: subpart %}
+			{% if forloop.first %}
+				{% assign result = result | append: '</b>' %}
+			{% elsif forloop.last %}
+			{% else %}
+				{% assign result = result | append: '}' %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+	{% if forloop.last %}
+	{% else %}
+		{% assign result = result | append: '<b>' %}
+	{% endif %}
+{% endfor %}
+{% assign content = result %}
+
+
+{{ content }}
+
+
 		</div>
 	</main>
 	

@@ -2,3 +2,8 @@ title: "Ikhan Choi"
 url: "https://ikhanchoi.github.io"
 plugins:
   - jekyll-sitemap
+
+collections:
+  wiki:
+    output: true
+    permalink: /:collection/:path/

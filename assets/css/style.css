@@ -1,28 +1,7 @@
-
 body {
   max-width: 640px;
   margin: 0 auto;
   line-height: 160%;
-}
-
-header {
-  font-size: 32px;
-  font-family: Lora;
-  padding: 40px 0px 20px;
-}
-
-nav {
-  font-size: 14px;
-  font-family: Roboto;
-  letter-spacing : 0.3px;
-  padding: 8px 0px;
-}
-
-section, article {
-  font-size: 14px;
-  font-family: Slash, Lora, Noto Sans KR;
-  letter-spacing : 0.3px;
-  padding: 8px 16px;
 }
 
 h1,h2,h3 {
@@ -40,14 +19,6 @@ h2 {
 
 h3 {
   font-size: 16px;
-}
-
-footer {
-  font-size: 10px;
-  font-family: Lora;
-  line-height: 160%;
-  letter-spacing : 0.2px;
-  padding: 8px 16px;
 }
 
 ul {
@@ -80,8 +51,6 @@ hr {
   width: 30%;
   margin: 24px auto 24px;
 }
-
-
 
 a:link { color: green; text-decoration: none;}
 a:visited { color: green; text-decoration: none;}
