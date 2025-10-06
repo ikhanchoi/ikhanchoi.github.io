@@ -10,7 +10,7 @@ layout: default
 - 
 	__I. Choi__,
 	A solution to Haagerup's problem and positive Hahn-Banach separation theorems in operator algebras,
-	preprint.
+	to appear in Journal of Functional Analysis.
 	[![](/assets/img/arxiv.svg){:height="14px"}](https://arxiv.org/abs/2501.16832)
 
 
@@ -29,6 +29,13 @@ layout: default
 ## Talks
 
 ### 2025
+
+<details><summary>KK-theory as a stable infinity category</summary><div markdown="1">
+
+| 9/3 | __Matsuyama__, Functional Analysis Conference (Junior) |
+
+</div></details>
+
 <details><summary>A solution to Haagerup's problem on normal weights</summary><div markdown="1">
 
 | 5/13  | **Tokyo**, Operator Algebra Seminars at the University of Tokyo |
