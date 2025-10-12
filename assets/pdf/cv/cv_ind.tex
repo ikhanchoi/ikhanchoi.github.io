@@ -1,8 +1,9 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[margin=1cm]{geometry}
-\usepackage{xcolor,fontawesome,hyperref}
+\usepackage{fontawesome,hyperref}
 \usepackage[T1]{fontenc}
 \usepackage[bitstream-charter]{mathdesign}
+\usepackage{luatexja}
 \usepackage{enumitem}
 \setlist[itemize]{label=,itemindent=-2em,leftmargin=4em}
 
@@ -33,13 +34,24 @@
 \section*{Projects}
 
 \subsection*{Game engine}
+\faGithub\quad\href{https://github.com/ikhanchoi/game-engine}{github.com/ikhanchoi/game-engine}\\[4pt]
+\faArrowRight\quad
+レンダリングとシミュレーションで遊べる実験室をパソコンに作りたいという目標を目指して、趣味として開発しているECS基盤自作ゲームエンジンです。
+OpenGLとtinyGLTFを使います。
+現在イベントシステム、カスタムアロケーター、レンダラーなどが実装されています。
 
-\subsection*{Rendering }
+\subsection*{Rendering}
+\faGithub\quad\href{https://github.com/ikhanchoi/blackhole}{github.com/ikhanchoi/blackhole}\\[4pt]
+\faArrowRight\quad
+インターステラーのブラックホールを描画するために頑張っています。
+モノマネではなく、現論文に従ってアインシュタイン方程式をフラグメントシェーダーで解こうとしています。
+マルチスレッドでgifファイルを録画する機能も作りました。
 
 \subsection*{Physics simulations}
-
-\subsection*{Artificial Intelligence}
-
+\faGithub\quad\href{https://github.com/ikhanchoi/pba-ikhanchoi}{github.com/ikhanchoi/pba-ikhanchoi}\\[4pt]
+\faArrowRight\quad
+梅谷信行先生の2025年Sセメスターの授業「物理基盤アニメーション」の課題レポジトリーです。
+RustとUnityで簡単なシミュレーションを行う課題で、成績は優でした。
 
 
 
@@ -56,11 +68,11 @@
 \section*{Education}
 \begin{itemize}
 \item
-	\textbf{University of Tokyo}
+	\textbf{The University of Tokyo}
 	\hfill{\small Apr 2025 -- Now}\\
 	Ph.D. program in Mathematical Science
 \item
-	\textbf{University of Tokyo}
+	\textbf{The University of Tokyo}
 	\hfill{\small Apr 2023 -- Mar 2025}\\
 	M.S. in Mathematical Science
 \item
@@ -84,14 +96,15 @@
 \begin{itemize}
 \item
 	R\&D on Natural Language Processing for Chatbot development\hfill{\small Jun 2019 -- Aug 2019}\\
-	Internship Program, Persona AI Co., Ltd.\\
-	\textcolor{lightgray}{Implemented variable length HMM, Bahdanau attention model, and sentiment analyzer with seq2seq.}
+	Internship Program, Persona AI Co., Ltd.\\[4pt]
+	\faArrowRight\quad
+	Implemented variable length HMM, Bahdanau attention model, and sentiment analyzer with seq2seq.
 \end{itemize}
 
 
+\vfill\hfill(Continued to the next page)
 
-
-\newpage
+\clearpage
 
 \section*{Academic Experiences}
 
@@ -105,13 +118,15 @@ Functional Analysis and Homotopy Theory
 \item
 	\textbf{I. Choi},
 	\emph{A solution to Haagerup's problem and positionve Hahn-Banach separation theorems in operator algebras},\\
-	preprint, \href{https://arxiv.org/abs/2501.16832}{arXiv: 2501.16832.} (Master's thesis)\\
-	\textcolor{lightgray}{Solved a 50 years old open problem posed by U. Haagerup.}
+	to appear in Journal of Functional Analysis, \href{https://arxiv.org/abs/2501.16832}{arXiv: 2501.16832.} (Master's thesis)\\[4pt]
+	\faArrowRight\quad
+	Solved a 50-year-old open problem posed by U. Haagerup, who had finished the classification of amenable type III von Neumann algebras and was one of founders of Tomita-Takesaki theory.
 \item
 	\textbf{I. Choi},
 	\emph{Curved folding and planar cutting of simple closed curve on a conical origami},\\
-	\href{https://projecteuclid.org/journals/kodai-mathematical-journal/volume-39/issue-3/Curved-folding-and-planar-cutting-of-simple-closed-curve-on/10.2996/kmj/1478073774.full}{Kodai Math. J., 39-3 (2016) 579-595.} (High school thesis)\\
-	\textcolor{lightgray}{Suggested a problem in terms of classical differential geometry of determining whether a closed curve on a plane can be realized as the intersection of a piecewise smooth isometric immersion of the plane and another plane embedded in the three-dimensional Euclidean space.}
+	\href{https://projecteuclid.org/journals/kodai-mathematical-journal/volume-39/issue-3/Curved-folding-and-planar-cutting-of-simple-closed-curve-on/10.2996/kmj/1478073774.full}{Kodai Math. J., 39-3 (2016) 579-595.} (High school thesis)\\[4pt]
+	\faArrowRight\quad
+	Suggested a problem in terms of classical differential geometry of determining whether a closed curve on a plane can be realized as the intersection of a piecewise smooth isometric immersion of the plane and another plane embedded in the three-dimensional Euclidean space.
 \end{itemize}
 
 
@@ -119,18 +134,18 @@ Functional Analysis and Homotopy Theory
 \subsection*{Awards and Honors}
 \begin{itemize}
 \item
-	Research Fellowship for Young Scientists (Doctoral Course)\hfill{\small Apr 2026 -- Mar 2028}\\
+	\textbf{Research Fellowship for Young Scientists} (学振 DC2)\hfill{\small Apr 2026 -- Mar 2028}\\
 	Japan Society for the Promotion of Science (JSPS)
 \item
-	Dean's Award
+	\textbf{Dean's Award} (研究科長賞)
 	\hfill{\small Mar 2025}\\
 	M.S. in Graduate School of Mathematical Science at the University of Tokyo
 \item
-	Japanese Government (MEXT) Scholarship
+	\textbf{Japanese Government (MEXT) Scholarship} (国費留学生)
 	\hfill{\small Apr 2023 -- Mar 2026}\\
-	Embassy recommendation, Research student
+	Embassy recommendation
 \item
-	Gold Prize in 38th Mathematics Competition for University Students in Korea
+	\textbf{Gold Prize} in 38th Mathematics Competition for University Students in Korea
 	\hfill{\small Nov 2019}\\
 	1st group for math majors\\
 	Sponsored by Korean Mathematics Society
@@ -141,13 +156,16 @@ Functional Analysis and Homotopy Theory
 
 \begin{itemize}
 \item
+	Teaching Assistant: Linear Algebra II
+	\hfill{\small Fall 2025}
+\item
 	Teaching Assistant: Geometry II
 	\hfill{\small Fall 2024}
 \item
 	Teaching Assistant: Complex Analysis I
 	\hfill{\small Fall 2023}
 \item
-	Student Mentoring: MATH 423 Introduction to Differential Geometry
+	Student Mentoring: Introduction to Differential Geometry
 	\hfill{\small Fall 2019}\\
 \end{itemize}
 
