@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.19)  13 OCT 2025 01:18
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.11.19)  14 OCT 2025 02:05
  restricted system commands enabled.
 **cv_ind.tex
 (./cv_ind.tex
@@ -449,7 +449,15 @@ LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip50
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)) (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip51
+\enit@outerparindent=\dimen154
+\enit@toks=\toks21
+\enit@inbox=\box48
+\enit@count@id=\count275
+\enitdp@description=\count276
+) (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
 Package: luatexja 2021-03-19 Japanese Typesetting with Lua(La)TeX
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
 Package: luatexja-core 2021-03-16 Core of LuaTeX-ja
@@ -457,30 +465,30 @@ Package: luatexja-core 2021-03-16 Core of LuaTeX-ja
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count275
+\@catcodetablestackcnt=\count277
 )
 \CatcodeTableOther=\catcodetable12
 \CatcodeTableExpl=\catcodetable13
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count276
+\etb@tempcnta=\count278
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/everyhook/everyhook.sty (/usr/l
 ocal/texlive/2021/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
 X primitives.
-\everypar=\toks21
-\frozen@everymath=\toks22
-\frozen@everydisplay=\toks23
-\everyhbox=\toks24
-\everyvbox=\toks25
-\everycr=\toks26
+\everypar=\toks22
+\frozen@everymath=\toks23
+\frozen@everydisplay=\toks24
+\everyhbox=\toks25
+\everyvbox=\toks26
+\everycr=\toks27
 )
-\ltjlineendcomment=\count277
-\ltj@dimen@zw=\dimen154
-\ltj@dimen@zh=\dimen155
-\ltj@dimen@jQ=\dimen156
+\ltjlineendcomment=\count279
+\ltj@dimen@zw=\dimen155
+\ltj@dimen@zh=\dimen156
+\ltj@dimen@jQ=\dimen157
 \ltj@icflag=\attribute4
 \ltj@curjfnt=\attribute5
 \ltj@curtfnt=\attribute6
@@ -496,7 +504,7 @@ X primitives.
 \ltj@vert@ori=\attribute16
 \ltj@dir=\attribute17
 \ltj@@japanese=\language2
-\ltj@tempcnta=\count278
+\ltj@tempcnta=\count280
 \ltj@kcat0=\attribute18
 \ltj@kcat1=\attribute19
 \ltj@kcat2=\attribute20
@@ -609,10 +617,10 @@ Inserting `luaotfload.harf.finalize_hlist' at position 5 in `hpack_filter'.
 Inserting `ltj.create_dir_whatsit' at position 6 in `hpack_filter'. (/usr/local
 /texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-base.sty
 Package: ltj-base 2021-03-16
-\ltj@tempcntb=\count279
-\ltj@tempcntc=\count280
-\ltj@tempdima=\dimen157
-\ltj@afbox=\box48
+\ltj@tempcntb=\count281
+\ltj@tempcntc=\count282
+\ltj@tempdima=\dimen158
+\ltj@afbox=\box49
 )
 \ltj@@italic@inner=\luafunction11
 \ltj@@start@time@measure@inner=\luafunction12
@@ -628,8 +636,8 @@ Package: ltj-base 2021-03-16
 \ltj@@fakeboxbdd@inner=\luafunction22
 \ltj@@ins@xk@inner=\luafunction23
 \ltj@@ins@k@inner=\luafunction24
-\ltj@@stack=\count281
-\ltj@@group@level=\count282
+\ltj@@stack=\count283
+\ltj@@group@level=\count284
 \ltjsetkanjiskip@inner=\luafunction25
 \ltjsetxkanjiskip@inner=\luafunction26
 \ltj@@getparam@one@inner=\luafunction27
@@ -645,26 +653,26 @@ Package: ltj-latex 2021-03-18 LaTeX support of LuaTeX-ja
 \ltj@@lua@shipout@inner=\luafunction34
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
 Package: lltjfont 2021-02-14 Patch to NFSS2 for LuaTeX-ja
-\ltj@@latex@plv=\count283
+\ltj@@latex@plv=\count285
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2020/08/10 v2.0s Standard LaTeX file
 \@remove@tlig@@@@=\luafunction35
 LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
 )
-\Cht=\dimen158
-\cht=\dimen159
-\Cdp=\dimen160
-\cdp=\dimen161
-\Cwd=\dimen162
-\cwd=\dimen163
-\Cvs=\dimen164
-\cvs=\dimen165
-\Chs=\dimen166
-\chs=\dimen167
-\cHT=\dimen168
-\dstrutbox=\box49
-\tstrutbox=\box50
-\zstrutbox=\box51
+\Cht=\dimen159
+\cht=\dimen160
+\Cdp=\dimen161
+\cdp=\dimen162
+\Cwd=\dimen163
+\cwd=\dimen164
+\Cvs=\dimen165
+\cvs=\dimen166
+\Chs=\dimen167
+\chs=\dimen168
+\cHT=\dimen169
+\dstrutbox=\box50
+\tstrutbox=\box51
+\zstrutbox=\box52
 LaTeX Info: Redefining \strut on input line 90.
 \ltj@@add@fenc@@inner=\luafunction36
 \ltj@@add@kyenc@@inner=\luafunction37
@@ -705,30 +713,30 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 (Font)                  JY3/mc/m/n --> JY3/gt/m/n on input line 84.
 ) (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty
 Package: lltjcore 2021-03-19 Patch to LaTeX2e Kernel for LuaTeX-ja
-\@tombowwidth=\dimen169
-\@TL=\box52
-\@Tl=\box53
-\@TC=\box54
-\@TR=\box55
-\@Tr=\box56
-\@BL=\box57
-\@Bl=\box58
-\@BC=\box59
-\@BR=\box60
-\@Br=\box61
-\@CL=\box62
-\@CR=\box63
+\@tombowwidth=\dimen170
+\@TL=\box53
+\@Tl=\box54
+\@TC=\box55
+\@TR=\box56
+\@Tr=\box57
+\@BL=\box58
+\@Bl=\box59
+\@BC=\box60
+\@BR=\box61
+\@Br=\box62
+\@CL=\box63
+\@CR=\box64
 (load cache: extra_lmmono9-regular.luc)
-\@bannertoken=\toks27
-\@@paperheight=\dimen170
-\@@paperwidth=\dimen171
-\@@topmargin=\dimen172
+\@bannertoken=\toks28
+\@@paperheight=\dimen171
+\@@paperwidth=\dimen172
+\@@topmargin=\dimen173
 LaTeX Info: Redefining \underline on input line 261.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-atbegshi.
 sty
 Package: lltjp-atbegshi 2021-03-14 Patching \shipout hooks for LuaTeX-ja
-\l__platex_shipout_dummy_box=\box64
+\l__platex_shipout_dummy_box=\box65
 )
 (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.
 sty)
@@ -741,17 +749,9 @@ l writing mode
 ) (/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
 Package: luatexja-compat 2020-08-08 Compatibility with pTeX
 (load cache: ltj-jisx0208.luc)
-\hour=\count284
-\minute=\count285
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip51
-\enit@outerparindent=\dimen173
-\enit@toks=\toks28
-\enit@inbox=\box65
-\enit@count@id=\count286
-\enitdp@description=\count287
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+\hour=\count286
+\minute=\count287
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box66
 \beforetitleunit=\skip52
@@ -1044,45 +1044,47 @@ LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
 (Font)              No change on input line 50.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 59.
+(Font)              No change on input line 56.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 68.
+(Font)              No change on input line 62.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
+(Font)              No change on input line 71.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 71.
+(Font)              scaled to size 10.51207pt on input line 74.
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10.95> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 71.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 71.
+(Font)              scaled to size 10.53629pt on input line 74.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10.95> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 71.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 71.
+(Font)              scaled to size 10.53629pt on input line 74.
 (load cache: extra_haranoajigothic-medium.luc)
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 93.
+(Font)              No change on input line 96.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 109.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
 (Font)              No change on input line 112.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 116.
+(Font)              No change on input line 115.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
+(Font)              No change on input line 119.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 120.
+(Font)              scaled to size 10.53629pt on input line 123.
 LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
-(Font)              No change on input line 120.
+(Font)              No change on input line 123.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 120.
+(Font)              scaled to size 10.51207pt on input line 123.
 LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
-(Font)              No change on input line 126.
+(Font)              No change on input line 129.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 134.
+(Font)              No change on input line 137.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 155.
+(Font)              No change on input line 158.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/fsc' undefined
-(Font)              No change on input line 173.
+(Font)              No change on input line 176.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [2
@@ -1097,15 +1099,15 @@ Package rerunfilecheck Info: File `cv_ind.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  15912 strings out of 478531
- 195703,794899 words of node,token memory allocated
- 19248 words of node memory still in use:
-   7 hlist, 1 vlist, 4 rule, 4 glue, 330 kern, 1 glyph, 7563 attribute, 264 glue
-_spec, 392 attribute_list, 1 write, 39 user_defined nodes
-   avail lists: 1:31,2:49244,3:474,4:264,5:148,6:68,7:6454,8:21,9:1240,10:10,11:
+ 244639,794899 words of node,token memory allocated
+ 19448 words of node memory still in use:
+   7 hlist, 1 vlist, 4 rule, 6 glue, 331 kern, 1 glyph, 7623 attribute, 275 glue
+_spec, 395 attribute_list, 1 write, 39 user_defined nodes
+   avail lists: 1:30,2:53264,3:516,4:264,5:157,6:75,7:6829,8:24,9:1405,10:10,11:
 543
  35021 multiletter control sequences out of 65536+600000
  158 fonts using 45205071 bytes
- 98i,6n,98p,1744b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,6n,98p,1723b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/local
 /texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular
 .otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/fontawesome/FontA
@@ -1115,10 +1117,10 @@ fb></usr/local/texlive/2021/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y
 .pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-
 chr8t.pfb>
-Output written on cv_ind.pdf (2 pages, 85994 bytes).
+Output written on cv_ind.pdf (2 pages, 89759 bytes).
 
-PDF statistics: 60 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+PDF statistics: 61 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

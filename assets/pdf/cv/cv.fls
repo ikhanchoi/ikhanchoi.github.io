@@ -639,6 +639,11 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbch
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchrmb.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchrmb.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchrfc8t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mathdesign/mdbch/ts1mdbch.fd
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchr8c.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchb8t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchri8t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchr8t.vf
@@ -655,11 +660,13 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-ch
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8y.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchr8c.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8y.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8c.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchb8t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb8y.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chb8t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchr8t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8y.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchri8t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chri8y.tfm

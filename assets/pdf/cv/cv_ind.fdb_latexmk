@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1760285881 "cv_ind.tex" "cv_ind.pdf" "cv_ind" 1760285883
+["lualatex"] 1760375141 "cv_ind.tex" "cv_ind.pdf" "cv_ind" 1760375143
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/fontawesome.luc" 1658674678 57548 7158902bba1464da5d7e7e337489f1a1 ""
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/haranoajigothic-medium.luc" 1698153984 1870129 2e4f42842c9aba88eb5415c60f31b355 ""
   "/Users/ikhanchoi/Library/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/haranoajimincho-regular.luc" 1698153581 9686156 1ca902cdd0da86aec5b8b56885ed1999 ""
@@ -219,11 +219,11 @@
   "/usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.sty" 1609713131 18543 dc0930487883edc32527afc754ad1671 ""
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1637295522 3313490 ff04316165a61869362bbfbb8398696c ""
-  "cv_ind.aux" 1760285883 686 4ce905362b6645b598ea182482e9aeed "lualatex"
-  "cv_ind.out" 1760285883 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "cv_ind.tex" 1760285881 6066 74d24abec6bb0575b9841f71904ad798 ""
+  "cv_ind.aux" 1760375143 686 4ce905362b6645b598ea182482e9aeed "lualatex"
+  "cv_ind.out" 1760375142 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "cv_ind.tex" 1760375141 6390 ec2d302b402156e5a5b35538957ba997 ""
   (generated)
-  "cv_ind.aux"
   "cv_ind.log"
   "cv_ind.out"
+  "cv_ind.aux"
   "cv_ind.pdf"

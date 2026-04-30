@@ -4,6 +4,18 @@ layout: default
 
 # Schedule
 
+## 2026 Spring
+- TA: Linear Algebra I
+
+
+
+
+## 2025 Autumn
+- TA: Linear Algebra II
+
+| 2/2 - 2/6 | __Seoul__, Korea Operator Algebras Seminar |
+
+
 ## 2025 Spring
 
 | 6/6 | __Kyoto__, [Kyoto Operator Aalgebra Seminar](https://www.kurims.kyoto-u.ac.jp/~narutaka/koas.html) |
@@ -11,7 +23,6 @@ layout: default
 | 7/14 | __Seoul__, [KIAS Seminars](https://www.kias.re.kr/kias/activities/seminars/list.do?menuNo=404003) |
 | 9/2 - 9/5 | __Matsuyama__, Functional Analysis Conference (Junior) |
 | 9/24 - 9/26 | __Kyoto__, [Operator Algebraists' Symposium, Recent Developments in Operator Algebras](https://www.kurims.kyoto-u.ac.jp/~narutaka/2025sep.html) |
-
 
 
 

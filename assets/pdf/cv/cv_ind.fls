@@ -219,6 +219,9 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-ch
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -308,9 +311,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/luatex/luatexja/ltj-compat.lua
 INPUT /Users/ikhanchoi/Library/texlive/2021/texmf-var/luatexja/ltj-jisx0208.luc
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty

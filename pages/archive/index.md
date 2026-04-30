@@ -10,17 +10,17 @@ layout: default
 - 
 	__I. Choi__,
 	A solution to Haagerup's problem and positive Hahn-Banach separation theorems in operator algebras,
-	to appear in Journal of Functional Analysis.
+	_J. Funct. Anal._ __290__ (2026), no.~2, Paper No.~111228, 11 pp.
+	[![](/assets/img/pdf.jpeg){:height="14px"}](/assets/pdf/papers/251006.pdf)
 	[![](/assets/img/arxiv.svg){:height="14px"}](https://arxiv.org/abs/2501.16832)
+	[![](/assets/img/mathscinet.png){:height="14px"}](https://mathscinet.ams.org/mathscinet/article?mr=4972190)
 
 
 - 
 	__I. Choi__,
 	Curved folding and planar cutting of simple closed curve on a conical origami,
-	[_Kodai Math. J._](https://www.math.titech.ac.jp/top/~tosho/Journal/info-j.html),
-	39(3):579-595,
-	2016.
-	[![](/assets/img/pdf.jpeg){:height="14px"}](/assets/pdf/papers/1509-cfpc.pdf)
+	_Kodai Math. J._ __39__ (2016), no.~3, 579--595.
+	[![](/assets/img/pdf.jpeg){:height="14px"}](/assets/pdf/papers/160315.pdf)
 	[![](/assets/img/mathscinet.png){:height="14px"}](https://mathscinet.ams.org/mathscinet/article?mr=3567235)
 
 
@@ -28,11 +28,16 @@ layout: default
 
 ## Talks
 
+### 2026
+
+
+
 ### 2025
 
 <details><summary>KK-theory as a stable infinity category</summary><div markdown="1">
 
 | 9/3 | __Matsuyama__, Functional Analysis Conference (Junior) |
+| 
 
 </div></details>
 
