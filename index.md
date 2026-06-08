@@ -46,10 +46,13 @@ Hi, my name is Ikhan Choi (최익한).
 My surname is pronounced officially as "Chwe (チェ)", but I prefer to be called "Choy (チョイ)".
 
 I am from Korea and a graduate student at the University of Tokyo under the advice of [Yasuyuki Kawahigashi](https://www.ms.u-tokyo.ac.jp/~yasuyuki/index-e.html).
-I am grateful to have been selected as a recipient of the Japanese Government (MEXT) scholarship and honored with the Dean's Award from the University of Tokyo for my master's program.
+I was fortunate to receive the Japanese Government (MEXT) Scholarship and the Dean’s Award from the University of Tokyo during my master’s program.
+I am currently supported by the Japan Society for the Promotion of Science (JSPS) through the Research Fellowship for Young Scientists (DC).
 
 My research interests primarily lie in operator algebras and abstract harmonic analysis, and their applications to other areas of mathematics such as representation theory, differential geometry, and mathematical physics.
 Recently, I have been particularly interested in functional analytic features of bivariant K-theory and some generalizations from the viewpoint of algebraic topology.
+
+I recently solved a 50-year-old open problem posed by Uffe Haaerup in my master's thesis, which is available [here](https://www.sciencedirect.com/science/article/pii/S0022123625004100)!
 
 I am an amateur saxophonist, and also interested in computer graphics and physics simulations.
 
@@ -58,3 +61,5 @@ I am an amateur saxophonist, and also interested in computer graphics and physic
 
 Email: dlrgks623 [at] gmail [dot] com<br>
 Room 318, Mathematical Science Building, 3-8-1 Komaba, Tokyo
+
+This website is updated every month.

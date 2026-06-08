@@ -7,7 +7,13 @@ layout: default
 ## 2026 Spring
 - TA: Linear Algebra I
 
-
+| 6/21 - 6/26 | __Sleat__, [UK operator algebras conference 2026](https://icms.ac.uk/activities/workshop/operatoralgebras/) |
+| 6/29 - 7/3 | __Bonn__, [Interfaces of Spectral Theory, Operator Algebras and Noncommutative Geometry](https://math-events.uni-bonn.de/event/639/abstracts/) |
+| 7/4 - 7/10 | __Münster__, [Oberseminar C* algebras](https://www.uni-muenster.de/OpAlg/en/opalgwinter.html) |
+| 8/3 - 8/7 | __Shanghai__, [Special Week on Operator Algebras 2026](https://www.simis.cn/sub/swoa2026/index.html) |
+| 8/24 - 8/28 | __Seoul__, China-Japan-Korea Conference on Functional Analysis (Junior)  |
+| 9/7 - 9/11 | __Münster__, [Interactions between Operator Algebras, K-Theory and Homotopy Theory](https://indico.uni-muenster.de/event/3933/) |
+| 9/16 - 9/19 | __Yamaguchi__, [Functional Analysis Conference (Junior)](https://sites.google.com/view/fajunior2026/) |
 
 
 ## 2025 Autumn
@@ -21,7 +27,7 @@ layout: default
 | 6/6 | __Kyoto__, [Kyoto Operator Aalgebra Seminar](https://www.kurims.kyoto-u.ac.jp/~narutaka/koas.html) |
 | 7/7 - 7/11 | __Seoul__, [China-Japan-Korea Conference on Functional Analysis](http://conference.math.snu.ac.kr/CJK_Conference_2025/Home.html) |
 | 7/14 | __Seoul__, [KIAS Seminars](https://www.kias.re.kr/kias/activities/seminars/list.do?menuNo=404003) |
-| 9/2 - 9/5 | __Matsuyama__, Functional Analysis Conference (Junior) |
+| 9/2 - 9/5 | __Matsuyama__, [Functional Analysis Conference (Junior)](https://sites.google.com/view/fajunior2025/) |
 | 9/24 - 9/26 | __Kyoto__, [Operator Algebraists' Symposium, Recent Developments in Operator Algebras](https://www.kurims.kyoto-u.ac.jp/~narutaka/2025sep.html) |
 
 
@@ -39,7 +45,7 @@ layout: default
 	\* My presentation
 
 | 7/1 - 7/5 | __Seoul__, [Semigroups, groupoids and C*-algebras](https://sites.google.com/view/semigroups-groupoids-and-c-alg/home) |
-| 9/17 - 9/20 | __Sapporo__, Functional Analysis Conference (Junior) |
+| 9/17 - 9/20 | __Sapporo__, [Functional Analysis Conference (Junior)](https://www.math.sci.hokudai.ac.jp/~yuhei/junior2024) |
 
 
 
@@ -69,6 +75,6 @@ layout: default
 | 7/2 - 7/5 | __Kyoto__, [Noncommutative Geometry, Index Theory and Representation Theory](https://indico.math.cnrs.fr/event/8330/) |
 | 7/6 - 7/13 | __Chiba__, International Mathematical Olympiad (Team Guide) |
 | 8/7 - 8/12 | __Leuven__, [YMC*A](https://wis.kuleuven.be/events/YMCstarA) |
-| 9/5 - 9/8 | __Kyoto__, Functional Analysis Conference (Junior) |
+| 9/5 - 9/8 | __Kyoto__, [Functional Analysis Conference (Junior)](https://sites.google.com/view/2023-junior-website/) |
 
 \* I will always be in Tokyo, except for the schedules written in bold.
