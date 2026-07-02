@@ -11,7 +11,7 @@ layout: default
 | 6/29 - 7/3 | __Bonn__, [Interfaces of Spectral Theory, Operator Algebras and Noncommutative Geometry](https://math-events.uni-bonn.de/event/639/abstracts/) |
 | 7/4 - 7/10 | __Münster__, [Oberseminar C* algebras](https://www.uni-muenster.de/OpAlg/en/opalgwinter.html) |
 | 8/3 - 8/7 | __Shanghai__, [Special Week on Operator Algebras 2026](https://www.simis.cn/sub/swoa2026/index.html) |
-| 8/24 - 8/28 | __Seoul__, China-Japan-Korea Conference on Functional Analysis (Junior)  |
+| 8/25 - 8/28 | __Seoul__, [China-Japan-Korea Young Researchers in Functional Analysis 2026](https://sites.google.com/view/cjk-young-fa-2026/home)  |
 | 9/7 - 9/11 | __Münster__, [Interactions between Operator Algebras, K-Theory and Homotopy Theory](https://indico.uni-muenster.de/event/3933/) |
 | 9/16 - 9/19 | __Yamaguchi__, [Functional Analysis Conference (Junior)](https://sites.google.com/view/fajunior2026/) |
 
