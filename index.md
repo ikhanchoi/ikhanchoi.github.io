@@ -42,7 +42,7 @@ layout: default
 
 # About
 
-Hi, my name is Ikhan Choi (최익한).
+Hi, my name is Ikhan Choi (최익한, 崔瀷瀚).
 My surname is pronounced officially as "Chwe (チェ)", but I prefer to be called "Choy (チョイ)".
 
 I am from Korea and a graduate student at the University of Tokyo under the advice of [Yasuyuki Kawahigashi](https://www.ms.u-tokyo.ac.jp/~yasuyuki/index-e.html).
