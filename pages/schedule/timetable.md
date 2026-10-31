@@ -2,6 +2,4 @@
 layout: default
 ---
 
-## C$^*$ 대수
-
-### 
+# Timetable

@@ -1,0 +1,65 @@
+
+/* Travel */
+
+.travel-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.travel-entry {
+  display: grid;
+  grid-template-columns: 2.75rem 7rem 5.5rem minmax(0, 1fr);
+  column-gap: 0.5rem;
+  align-items: start;
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.travel-entry[hidden] {
+  display: none;
+}
+
+.travel-year,
+.travel-date {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.travel-venue {
+  min-width: 0;
+}
+
+.travel-note {
+  font-size: 0.75em;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .travel-entry {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    column-gap: 0.5rem;
+    row-gap: 0;
+  }
+
+  .travel-year {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+  }
+
+  .travel-date {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .travel-city {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .travel-venue {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}

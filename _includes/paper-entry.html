@@ -1,0 +1,49 @@
+
+{% assign paper = include.paper %}
+{% assign number = include.number %}
+
+<li class="paper-entry">
+
+  <span class="paper-number">[{{ number }}]</span>
+
+  <div class="paper-title">
+    {{ paper.title | escape }}
+  </div>
+
+  {% if paper.coauthors %}
+  <div class="paper-coauthors">
+    (with&nbsp;{% for author in paper.coauthors %}{{ author | escape }}{% unless forloop.last %}, {% endunless %}{% endfor %})
+  </div>
+  {% endif %}
+
+  {% if paper.journal %}
+  <div class="paper-journal">
+    <em>{{ paper.journal.title | escape }}</em>
+    {{ paper.journal.details | escape }}
+  </div>
+  {% endif %}
+  
+  {% if paper.links %}
+  <div class="paper-links">
+    {% if paper.links.pdf %}
+      <a href="{{ paper.links.pdf | relative_url }}"><img src="{{ '/assets/images/pdf.svg' | relative_url }}" alt="pdf"></a>
+    {% endif %}
+    {% if paper.links.arxiv %}
+      <a href="https://arxiv.org/abs/{{ paper.links.arxiv }}"><img src="{{ '/assets/images/arxiv.svg' | relative_url }}" alt="arXiv"></a>
+    {% endif %}
+    {% if paper.links.doi %}
+      <a href="https://doi.org/{{ paper.links.doi }}"><img src="{{ '/assets/images/doi.svg' | relative_url }}" alt="doi"></a>
+    {% endif %}
+    {% if paper.links.mr %}
+      <a href="https://mathscinet.ams.org/mathscinet/article?mr={{ paper.links.mr }}"><img src="{{ '/assets/images/mr.svg' | relative_url }}" alt="mr"></a>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if paper.comments %}
+  <div class="paper-comments">
+    {{ paper.comments | escape }}
+  </div>
+  {% endif %}
+
+</li>

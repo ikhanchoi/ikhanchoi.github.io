@@ -1,0 +1,53 @@
+
+{% assign entry = include.entry %}
+{% assign end_date = entry.end | default: entry.start %}
+{% assign start_month = entry.start | date: "%Y-%m" %}
+{% assign end_month = end_date | date: "%Y-%m" %}
+{% assign start_year = entry.start | date: "%Y" %}
+{% assign end_year = end_date | date: "%Y" %}
+
+<li class="travel-entry"
+    data-start="{{ entry.start }}"
+    data-end="{{ end_date }}"
+    data-year="{{ start_year }}">
+
+  <span class="travel-year">
+    {{ include.year_label }}
+  </span>
+
+  <time class="travel-date" datetime="{{ entry.start }}">
+    {{ entry.start | date: "%b %-d" }}
+    {% if end_date != entry.start %}
+      –
+      {% if start_month == end_month %}
+        {{ end_date | date: "%-d" }}
+      {% else %}
+        {{ end_date | date: "%b %-d" }}
+      {% endif %}
+      {% if start_year != end_year %}
+        ({{ end_year }})
+      {% endif %}
+    {% endif %}
+  </time>
+
+  <strong class="travel-city">
+    {{ entry.city | escape }}
+  </strong>
+
+  <span class="travel-venue">
+    {% if entry.url %}
+      <a href="{{ entry.url | escape }}">
+        {{ entry.title | escape }}
+      </a>
+    {% else %}
+      {{ entry.title | escape }}
+    {% endif %}
+
+    {% if entry.note %}
+      <span class="travel-note">
+        ({{ entry.note | escape }})
+      </span>
+    {% endif %}
+  </span>
+
+</li>

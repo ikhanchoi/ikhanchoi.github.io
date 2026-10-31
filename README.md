@@ -1,44 +1,39 @@
 # Ikhan Choi's Website
 
-
 ## Home
-- About
-	afilliation
-	hobby
-	positions
+About
+CV
+Contact
 
-- News *
 
-- Schedules *
-	travels
-	seminars
 
-- Contact
+## Schedule
+- Travel
+- Timetable
+- Seminars *
+- Visitors *
+
+
 
 ## Archive
+
+Research
 - Papers
-	files, comments
-	books
 - Talks
-- Teaching
-- Notes
-	course, seminar
 
-- Unofficial CV
+Teaching
+- Courses
+- Students *
+
+Service *
+- Responsibilities *
+- Organization *
+- Editorial *
+- Refereeing *
 
 
 
-
-## Articles
+## Blog
 - 연구소개글
 - 진로정보글
 - 공부잡담글
-
-
-
-
-
-# 웹사이트 관리 관련
-
-
-blog를 article로, blog 안의 article을 japdam으로 바꾸고 싶다

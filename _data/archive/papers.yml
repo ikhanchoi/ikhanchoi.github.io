@@ -1,0 +1,41 @@
+- title: "Analytic Kasparov product for non-separable C*-algebras"
+  status: "preprint"
+  links:
+    arxiv: "2610.40351"
+
+- title: "A solution to Haagerup's problem: Normality of weights is commutatively determined"
+  coauthors:
+    "David P. Blecher"
+  status: "preprint"
+  links:
+    arxiv: "2610.35774"
+
+- title: "A counterexample to Haagerup's problem on subadditive weights"
+  coauthors:
+    "Sunghyeon Jo"
+  status: "preprint"
+  links:
+    arxiv: "2608.23896"
+
+- title: "A solution to Haagerup's problem and positive Hahn-Banach separation theorems in operator algebras"
+  status: published
+  journal:
+    title: "J. Funct. Anal."
+    details: "290 (2026), no. 2, Paper No. 111228, 11 pp."
+  links:
+    arxiv: "2501.16832"
+    doi: "10.1016/j.jfa.2025.111228"
+    mr: "4972190"
+    pdf: "/assets/pdf/papers/2510%20phb.pdf"
+  comments: "Master's thesis"
+
+- title: "Curved folding and planar cutting of simple closed curve on a conical origami"
+  status: published
+  journal:
+    title: "Kodai Math. J."
+    details: "39 (2016), no. 3, 579–595."
+  links:
+    doi: "10.2996/kmj/1478073774"
+    mr: "3567235"
+    pdf: "/assets/pdf/papers/1603%20cfpc.pdf"
+  comments: "Highschool thesis"

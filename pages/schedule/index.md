@@ -4,77 +4,28 @@ layout: default
 
 # Schedule
 
-## 2026 Spring
-- TA: Linear Algebra I
-
-| 6/21 - 6/26 | __Sleat__, [UK operator algebras conference 2026](https://icms.ac.uk/activities/workshop/operatoralgebras/) |
-| 6/29 - 7/3 | __Bonn__, [Interfaces of Spectral Theory, Operator Algebras and Noncommutative Geometry](https://math-events.uni-bonn.de/event/639/abstracts/) |
-| 7/4 - 7/10 | __Münster__, [Oberseminar C* algebras](https://www.uni-muenster.de/OpAlg/en/opalgwinter.html) |
-| 8/3 - 8/7 | __Shanghai__, [Special Week on Operator Algebras 2026](https://www.simis.cn/sub/swoa2026/index.html) |
-| 8/25 - 8/28 | __Seoul__, [China-Japan-Korea Young Researchers in Functional Analysis 2026](https://sites.google.com/view/cjk-young-fa-2026/home)  |
-| 9/7 - 9/11 | __Münster__, [Interactions between Operator Algebras, K-Theory and Homotopy Theory](https://indico.uni-muenster.de/event/3933/) |
-| 9/16 - 9/19 | __Yamaguchi__, [Functional Analysis Conference (Junior)](https://sites.google.com/view/fajunior2026/) |
 
 
-## 2025 Autumn
-- TA: Linear Algebra II
+<h3 id="upcoming-heading" hidden>Upcoming</h3>
+Soonest first.
+<ul class="travel-list" id="travel-upcoming" hidden></ul>
 
-| 2/2 - 2/6 | __Seoul__, Korea Operator Algebras Seminar |
+<h3 id="past-heading" hidden>Past</h3>
+Most recent first, within the past year.
+<ul class="travel-list" id="travel-past" hidden></ul>
 
+{% assign travels = site.data.schedule.travel | sort: "start" | reverse %}
 
-## 2025 Spring
+<ul class="travel-list" id="travel-source">
+{% for entry in travels %}
+  {% include travel-entry.html entry=entry %}
+{% endfor %}
+</ul>
 
-| 6/6 | __Kyoto__, [Kyoto Operator Aalgebra Seminar](https://www.kurims.kyoto-u.ac.jp/~narutaka/koas.html) |
-| 7/7 - 7/11 | __Seoul__, [China-Japan-Korea Conference on Functional Analysis](http://conference.math.snu.ac.kr/CJK_Conference_2025/Home.html) |
-| 7/14 | __Seoul__, [KIAS Seminars](https://www.kias.re.kr/kias/activities/seminars/list.do?menuNo=404003) |
-| 9/2 - 9/5 | __Matsuyama__, [Functional Analysis Conference (Junior)](https://sites.google.com/view/fajunior2025/) |
-| 9/24 - 9/26 | __Kyoto__, [Operator Algebraists' Symposium, Recent Developments in Operator Algebras](https://www.kurims.kyoto-u.ac.jp/~narutaka/2025sep.html) |
+<p id="travel-empty" hidden>
+  No travel scheduled within this period.
+</p>
 
+For the complete travel history, see [All travel records]({% link pages/schedule/travel.md %}).
 
-
-## 2024 Autumn
-- TA: Geometry II
-
-
-## 2024 Spring
-- [M2 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2024s.htm)<br>
-	Mon 10:15 - 12:00,
-	Wed 10:15 - 12:00,
-	Room 308<br>
-	4/10\*, 5/1, 5/8, 5/13\*, 5/15, 5/22, 6/5\*, 6/10, 6/12, 6/17\*, 6/19, 6/24, 7/10<br>
-	\* My presentation
-
-| 7/1 - 7/5 | __Seoul__, [Semigroups, groupoids and C*-algebras](https://sites.google.com/view/semigroups-groupoids-and-c-alg/home) |
-| 9/17 - 9/20 | __Sapporo__, [Functional Analysis Conference (Junior)](https://www.math.sci.hokudai.ac.jp/~yuhei/junior2024) |
-
-
-
-## 2023 Autumn
-- [M1 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2023a.htm)<br>
-	Wed 10:15 - 12:00,
-	Fri 15:30 - 17:15,
-	Room 308<br>
-	10/18\*, 11/1, 11/8, 11/10\*, 11/15, 11/22, 12/20\*, 12/22, 12/27, 1/17\*, 1/31, 2/9(306), 3/8\*<br>
-	\* My presentation
-- TA: Complex Analysis I<br>
-	Tue 14:55 - 16:40,
-	Room 721,
-	[Problems and solutions](/assets/pdf/teaching/23A.pdf)
-
-
-## 2023 Spring
-- [M1 seminars](https://www.ms.u-tokyo.ac.jp/~yasuyuki/sem2023s.htm)<br>
-	Mon 15:30 - 17:15,
-	Fri 10:15 - 12:00,
-	Room 308<br>
-	4/14\*, 4/17, 5/1, 5/12\*, 5/15, 5/22, 5/26\*, 6/5, 6/9, 6/16\*, 8/1, 8/2, 8/4\*<br>
-	\* My presentation
-
-
-| 4/4 | Arrival in Tokyo |
-| 7/2 - 7/5 | __Kyoto__, [Noncommutative Geometry, Index Theory and Representation Theory](https://indico.math.cnrs.fr/event/8330/) |
-| 7/6 - 7/13 | __Chiba__, International Mathematical Olympiad (Team Guide) |
-| 8/7 - 8/12 | __Leuven__, [YMC*A](https://wis.kuleuven.be/events/YMCstarA) |
-| 9/5 - 9/8 | __Kyoto__, [Functional Analysis Conference (Junior)](https://sites.google.com/view/2023-junior-website/) |
-
-\* I will always be in Tokyo, except for the schedules written in bold.
+<script src="{{ '/assets/js/travel-window.js' | relative_url }}" defer></script>

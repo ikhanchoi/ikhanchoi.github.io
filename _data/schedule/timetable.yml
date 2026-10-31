@@ -1,0 +1,28 @@
+courses:
+  - term: 26A
+    title: "TA: Linear Algebra II"
+        
+
+    activities:
+      - day: 
+        room:
+        title: "TA: Linear Algebra I"
+
+
+    activities:
+      - kind: teaching
+        title: "TA: Linear Algebra II"
+
+
+    activities:
+      - kind: teaching
+        title: "TA: Geometry II"
+
+
+      - kind: teaching
+        title: "TA: Complex Analysis I"
+        room: "721"
+
+        weekly:
+          - day: "Tue"
+            time: "14:55–16:40"
